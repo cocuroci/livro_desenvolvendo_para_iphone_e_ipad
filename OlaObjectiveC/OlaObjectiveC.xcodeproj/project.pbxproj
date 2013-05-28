@@ -13,6 +13,7 @@
 		7D258FBE17553D7E00233A56 /* Carro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FBD17553D7E00233A56 /* Carro.m */; };
 		7D258FC1175542C100233A56 /* VelocidadeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FC0175542C100233A56 /* VelocidadeException.m */; };
 		7D258FC71755470D00233A56 /* PostoDeGasolina.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FC61755470D00233A56 /* PostoDeGasolina.m */; };
+		7D258FCA17554ED800233A56 /* LavaCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FC917554ED800233A56 /* LavaCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		7D258FC41755457B00233A56 /* CombustivelFlex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelFlex.h; sourceTree = "<group>"; };
 		7D258FC51755470D00233A56 /* PostoDeGasolina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoDeGasolina.h; sourceTree = "<group>"; };
 		7D258FC61755470D00233A56 /* PostoDeGasolina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoDeGasolina.m; sourceTree = "<group>"; };
+		7D258FC817554ED800233A56 /* LavaCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LavaCar.h; sourceTree = "<group>"; };
+		7D258FC917554ED800233A56 /* LavaCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LavaCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				7D258FC41755457B00233A56 /* CombustivelFlex.h */,
 				7D258FC51755470D00233A56 /* PostoDeGasolina.h */,
 				7D258FC61755470D00233A56 /* PostoDeGasolina.m */,
+				7D258FC817554ED800233A56 /* LavaCar.h */,
+				7D258FC917554ED800233A56 /* LavaCar.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				7D258FBE17553D7E00233A56 /* Carro.m in Sources */,
 				7D258FC1175542C100233A56 /* VelocidadeException.m in Sources */,
 				7D258FC71755470D00233A56 /* PostoDeGasolina.m in Sources */,
+				7D258FCA17554ED800233A56 /* LavaCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
