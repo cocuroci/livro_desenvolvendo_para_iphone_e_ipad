@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D258FAE1755391E00233A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D258FAD1755391E00233A56 /* Foundation.framework */; };
+		7D258FB11755391E00233A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FB01755391E00233A56 /* main.m */; };
+		7D258FB51755391E00233A56 /* OlaObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7D258FB41755391E00233A56 /* OlaObjectiveC.1 */; };
+		7D258FBE17553D7E00233A56 /* Carro.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FBD17553D7E00233A56 /* Carro.m */; };
+		7D258FC1175542C100233A56 /* VelocidadeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FC0175542C100233A56 /* VelocidadeException.m */; };
+		7D258FC71755470D00233A56 /* PostoDeGasolina.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D258FC61755470D00233A56 /* PostoDeGasolina.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D258FA81755391E00233A56 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				7D258FB51755391E00233A56 /* OlaObjectiveC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D258FAA1755391E00233A56 /* OlaObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlaObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D258FAD1755391E00233A56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D258FB01755391E00233A56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D258FB31755391E00233A56 /* OlaObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		7D258FB41755391E00233A56 /* OlaObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OlaObjectiveC.1; sourceTree = "<group>"; };
+		7D258FBC17553D7E00233A56 /* Carro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carro.h; sourceTree = "<group>"; };
+		7D258FBD17553D7E00233A56 /* Carro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carro.m; sourceTree = "<group>"; };
+		7D258FBF175542C100233A56 /* VelocidadeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocidadeException.h; sourceTree = "<group>"; };
+		7D258FC0175542C100233A56 /* VelocidadeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocidadeException.m; sourceTree = "<group>"; };
+		7D258FC21755455900233A56 /* CombustivelAlcool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelAlcool.h; sourceTree = "<group>"; };
+		7D258FC31755456900233A56 /* CombustivelGasolina.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelGasolina.h; sourceTree = "<group>"; };
+		7D258FC41755457B00233A56 /* CombustivelFlex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelFlex.h; sourceTree = "<group>"; };
+		7D258FC51755470D00233A56 /* PostoDeGasolina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoDeGasolina.h; sourceTree = "<group>"; };
+		7D258FC61755470D00233A56 /* PostoDeGasolina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoDeGasolina.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D258FA71755391E00233A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D258FAE1755391E00233A56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D258FA11755391E00233A56 = {
+			isa = PBXGroup;
+			children = (
+				7D258FAF1755391E00233A56 /* OlaObjectiveC */,
+				7D258FAC1755391E00233A56 /* Frameworks */,
+				7D258FAB1755391E00233A56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D258FAB1755391E00233A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D258FAA1755391E00233A56 /* OlaObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D258FAC1755391E00233A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D258FAD1755391E00233A56 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D258FAF1755391E00233A56 /* OlaObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				7D258FBB17553D2300233A56 /* Classes */,
+				7D258FB01755391E00233A56 /* main.m */,
+				7D258FB41755391E00233A56 /* OlaObjectiveC.1 */,
+				7D258FB21755391E00233A56 /* Supporting Files */,
+			);
+			path = OlaObjectiveC;
+			sourceTree = "<group>";
+		};
+		7D258FB21755391E00233A56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D258FB31755391E00233A56 /* OlaObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D258FBB17553D2300233A56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D258FBC17553D7E00233A56 /* Carro.h */,
+				7D258FBD17553D7E00233A56 /* Carro.m */,
+				7D258FBF175542C100233A56 /* VelocidadeException.h */,
+				7D258FC0175542C100233A56 /* VelocidadeException.m */,
+				7D258FC21755455900233A56 /* CombustivelAlcool.h */,
+				7D258FC31755456900233A56 /* CombustivelGasolina.h */,
+				7D258FC41755457B00233A56 /* CombustivelFlex.h */,
+				7D258FC51755470D00233A56 /* PostoDeGasolina.h */,
+				7D258FC61755470D00233A56 /* PostoDeGasolina.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D258FA91755391E00233A56 /* OlaObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D258FB81755391E00233A56 /* Build configuration list for PBXNativeTarget "OlaObjectiveC" */;
+			buildPhases = (
+				7D258FA61755391E00233A56 /* Sources */,
+				7D258FA71755391E00233A56 /* Frameworks */,
+				7D258FA81755391E00233A56 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaObjectiveC;
+			productName = OlaObjectiveC;
+			productReference = 7D258FAA1755391E00233A56 /* OlaObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D258FA21755391E00233A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "André Cocuroci";
+			};
+			buildConfigurationList = 7D258FA51755391E00233A56 /* Build configuration list for PBXProject "OlaObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D258FA11755391E00233A56;
+			productRefGroup = 7D258FAB1755391E00233A56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D258FA91755391E00233A56 /* OlaObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D258FA61755391E00233A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D258FB11755391E00233A56 /* main.m in Sources */,
+				7D258FBE17553D7E00233A56 /* Carro.m in Sources */,
+				7D258FC1175542C100233A56 /* VelocidadeException.m in Sources */,
+				7D258FC71755470D00233A56 /* PostoDeGasolina.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D258FB61755391E00233A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D258FB71755391E00233A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D258FB91755391E00233A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaObjectiveC/OlaObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D258FBA1755391E00233A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaObjectiveC/OlaObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D258FA51755391E00233A56 /* Build configuration list for PBXProject "OlaObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D258FB61755391E00233A56 /* Debug */,
+				7D258FB71755391E00233A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D258FB81755391E00233A56 /* Build configuration list for PBXNativeTarget "OlaObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D258FB91755391E00233A56 /* Debug */,
+				7D258FBA1755391E00233A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D258FA21755391E00233A56 /* Project object */;
+}
