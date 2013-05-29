@@ -7,6 +7,7 @@
 //
 
 #import "MeuPrimeiroViewController.h"
+#import "MeuSegundoViewController.h"
 
 @implementation MeuPrimeiroViewController
 
@@ -23,6 +24,14 @@
     imageView.image = image;
     
     [image release];
+    
+    self.title = @"Primeiro View Controller";
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    NSLog(@"viewWillAppear %@:", animated ? @"YES" : @"NO");
 }
 
 -(IBAction)olaMundo
@@ -46,6 +55,16 @@
     meuPrimeiroLabel.text = s;
     
     [self hideFields];
+    
+    MeuSegundoViewController *segundo = [[[MeuSegundoViewController alloc] init] autorelease];
+    segundo.msg = s;
+    
+    //UIWindow *window = [[UIApplication sharedApplication] keyWindow];
+    //[window addSubview:segundo.view];
+
+    //[self presentViewController:segundo animated:YES completion:nil];
+    
+    [self.navigationController pushViewController:segundo animated:YES];
 }
 
 - (IBAction)beginEditing:(id)sender

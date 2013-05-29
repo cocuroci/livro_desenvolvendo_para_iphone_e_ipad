@@ -21,13 +21,13 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    MeuPrimeiroViewController *controller = [[MeuPrimeiroViewController alloc] init];
+    MeuPrimeiroViewController *controller = [[[MeuPrimeiroViewController alloc] init] autorelease];
+    UINavigationController *nav = [[[UINavigationController alloc] initWithRootViewController:controller] autorelease];    
     
-    self.window.rootViewController = controller;
+    self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];    
-    
-    [controller release];    
+
     
     return YES;
 }

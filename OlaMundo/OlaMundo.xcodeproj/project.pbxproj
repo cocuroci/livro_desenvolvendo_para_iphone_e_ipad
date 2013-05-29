@@ -33,6 +33,8 @@
 		7D819F82175669C60094D0B9 /* tab_carros@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F70175669C60094D0B9 /* tab_carros@2x.png */; };
 		7D819F83175669C60094D0B9 /* tab_sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F71175669C60094D0B9 /* tab_sobre.png */; };
 		7D819F84175669C60094D0B9 /* tab_sobre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F72175669C60094D0B9 /* tab_sobre@2x.png */; };
+		7D819F881756A3670094D0B9 /* MeuSegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D819F861756A3660094D0B9 /* MeuSegundoViewController.m */; };
+		7D819F891756A3670094D0B9 /* MeuSegundoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F871756A3660094D0B9 /* MeuSegundoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +69,9 @@
 		7D819F70175669C60094D0B9 /* tab_carros@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_carros@2x.png"; sourceTree = "<group>"; };
 		7D819F71175669C60094D0B9 /* tab_sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sobre.png; sourceTree = "<group>"; };
 		7D819F72175669C60094D0B9 /* tab_sobre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sobre@2x.png"; sourceTree = "<group>"; };
+		7D819F851756A3660094D0B9 /* MeuSegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeuSegundoViewController.h; sourceTree = "<group>"; };
+		7D819F861756A3660094D0B9 /* MeuSegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeuSegundoViewController.m; sourceTree = "<group>"; };
+		7D819F871756A3660094D0B9 /* MeuSegundoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeuSegundoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				7D819F2C175643580094D0B9 /* MeuPrimeiroViewController.h */,
 				7D819F2D175643580094D0B9 /* MeuPrimeiroViewController.m */,
 				7D819F2E175643580094D0B9 /* MeuPrimeiroViewController.xib */,
+				7D819F851756A3660094D0B9 /* MeuSegundoViewController.h */,
+				7D819F861756A3660094D0B9 /* MeuSegundoViewController.m */,
+				7D819F871756A3660094D0B9 /* MeuSegundoViewController.xib */,
 				7D819F1E175640680094D0B9 /* AppDelegate.h */,
 				7D819F1F175640680094D0B9 /* AppDelegate.m */,
 				7D819F16175640680094D0B9 /* Supporting Files */,
@@ -231,6 +239,7 @@
 				7D819F82175669C60094D0B9 /* tab_carros@2x.png in Resources */,
 				7D819F83175669C60094D0B9 /* tab_sobre.png in Resources */,
 				7D819F84175669C60094D0B9 /* tab_sobre@2x.png in Resources */,
+				7D819F891756A3670094D0B9 /* MeuSegundoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +253,7 @@
 				7D819F1C175640680094D0B9 /* main.m in Sources */,
 				7D819F20175640680094D0B9 /* AppDelegate.m in Sources */,
 				7D819F2F175643580094D0B9 /* MeuPrimeiroViewController.m in Sources */,
+				7D819F881756A3670094D0B9 /* MeuSegundoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
