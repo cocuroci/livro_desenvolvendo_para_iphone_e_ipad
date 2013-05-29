@@ -8,11 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MeuPrimeiroViewController : UIViewController
+@interface MeuPrimeiroViewController : UIViewController <UITextFieldDelegate>
 {
     IBOutlet UILabel *meuPrimeiroLabel;
+    IBOutlet UITextField *meuPrimeiroTextField;
+    IBOutlet UITextField *meuSegundoTextField;
+    IBOutlet UIImageView *imageView;
 }
 
+@property (nonatomic,strong) UITextField *lastFildSelected;
+
 -(IBAction)olaMundo;
+-(IBAction)beginEditing:(id)sender;
+-(IBAction)sliderValueChanged:(id)sender;
 
 @end
