@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D819F10175640680094D0B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F0F175640680094D0B9 /* UIKit.framework */; };
+		7D819F12175640680094D0B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F11175640680094D0B9 /* Foundation.framework */; };
+		7D819F14175640680094D0B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F13175640680094D0B9 /* CoreGraphics.framework */; };
+		7D819F1A175640680094D0B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F18175640680094D0B9 /* InfoPlist.strings */; };
+		7D819F1C175640680094D0B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D819F1B175640680094D0B9 /* main.m */; };
+		7D819F20175640680094D0B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D819F1F175640680094D0B9 /* AppDelegate.m */; };
+		7D819F2F175643580094D0B9 /* MeuPrimeiroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D819F2D175643580094D0B9 /* MeuPrimeiroViewController.m */; };
+		7D819F30175643580094D0B9 /* MeuPrimeiroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F2E175643580094D0B9 /* MeuPrimeiroViewController.xib */; };
+		7D819F73175669C60094D0B9 /* appstore_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F61175669C60094D0B9 /* appstore_1024x1024.png */; };
+		7D819F74175669C60094D0B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F62175669C60094D0B9 /* Default-568h@2x.png */; };
+		7D819F75175669C60094D0B9 /* Default-Landscape@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F63175669C60094D0B9 /* Default-Landscape@2x~iPad.png */; };
+		7D819F76175669C60094D0B9 /* Default-Landscape~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F64175669C60094D0B9 /* Default-Landscape~iPad.png */; };
+		7D819F77175669C60094D0B9 /* Default-Portrait@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F65175669C60094D0B9 /* Default-Portrait@2x~iPad.png */; };
+		7D819F78175669C60094D0B9 /* Default-Portrait~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F66175669C60094D0B9 /* Default-Portrait~iPad.png */; };
+		7D819F79175669C60094D0B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F67175669C60094D0B9 /* Default.png */; };
+		7D819F7A175669C60094D0B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F68175669C60094D0B9 /* Default@2x.png */; };
+		7D819F7B175669C60094D0B9 /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F69175669C60094D0B9 /* ferrari_ff.png */; };
+		7D819F7C175669C60094D0B9 /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6A175669C60094D0B9 /* icon-iPad.png */; };
+		7D819F7D175669C60094D0B9 /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6B175669C60094D0B9 /* icon-iPad@2x.png */; };
+		7D819F7E175669C60094D0B9 /* icon-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6C175669C60094D0B9 /* icon-iPhone.png */; };
+		7D819F7F175669C60094D0B9 /* icon-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6D175669C60094D0B9 /* icon-iPhone@2x.png */; };
+		7D819F80175669C60094D0B9 /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6E175669C60094D0B9 /* mclaren.png */; };
+		7D819F81175669C60094D0B9 /* tab_carros.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F6F175669C60094D0B9 /* tab_carros.png */; };
+		7D819F82175669C60094D0B9 /* tab_carros@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F70175669C60094D0B9 /* tab_carros@2x.png */; };
+		7D819F83175669C60094D0B9 /* tab_sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F71175669C60094D0B9 /* tab_sobre.png */; };
+		7D819F84175669C60094D0B9 /* tab_sobre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D819F72175669C60094D0B9 /* tab_sobre@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D819F0C175640680094D0B9 /* OlaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D819F0F175640680094D0B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D819F11175640680094D0B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D819F13175640680094D0B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D819F17175640680094D0B9 /* OlaMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaMundo-Info.plist"; sourceTree = "<group>"; };
+		7D819F19175640680094D0B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D819F1B175640680094D0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D819F1D175640680094D0B9 /* OlaMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		7D819F1E175640680094D0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D819F1F175640680094D0B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D819F2C175643580094D0B9 /* MeuPrimeiroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeuPrimeiroViewController.h; path = ../MeuPrimeiroViewController.h; sourceTree = "<group>"; };
+		7D819F2D175643580094D0B9 /* MeuPrimeiroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeuPrimeiroViewController.m; path = ../MeuPrimeiroViewController.m; sourceTree = "<group>"; };
+		7D819F2E175643580094D0B9 /* MeuPrimeiroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeuPrimeiroViewController.xib; path = ../MeuPrimeiroViewController.xib; sourceTree = "<group>"; };
+		7D819F61175669C60094D0B9 /* appstore_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore_1024x1024.png; sourceTree = "<group>"; };
+		7D819F62175669C60094D0B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D819F63175669C60094D0B9 /* Default-Landscape@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~iPad.png"; sourceTree = "<group>"; };
+		7D819F64175669C60094D0B9 /* Default-Landscape~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~iPad.png"; sourceTree = "<group>"; };
+		7D819F65175669C60094D0B9 /* Default-Portrait@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~iPad.png"; sourceTree = "<group>"; };
+		7D819F66175669C60094D0B9 /* Default-Portrait~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~iPad.png"; sourceTree = "<group>"; };
+		7D819F67175669C60094D0B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D819F68175669C60094D0B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D819F69175669C60094D0B9 /* ferrari_ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari_ff.png; sourceTree = "<group>"; };
+		7D819F6A175669C60094D0B9 /* icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad.png"; sourceTree = "<group>"; };
+		7D819F6B175669C60094D0B9 /* icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad@2x.png"; sourceTree = "<group>"; };
+		7D819F6C175669C60094D0B9 /* icon-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPhone.png"; sourceTree = "<group>"; };
+		7D819F6D175669C60094D0B9 /* icon-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPhone@2x.png"; sourceTree = "<group>"; };
+		7D819F6E175669C60094D0B9 /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+		7D819F6F175669C60094D0B9 /* tab_carros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_carros.png; sourceTree = "<group>"; };
+		7D819F70175669C60094D0B9 /* tab_carros@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_carros@2x.png"; sourceTree = "<group>"; };
+		7D819F71175669C60094D0B9 /* tab_sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sobre.png; sourceTree = "<group>"; };
+		7D819F72175669C60094D0B9 /* tab_sobre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sobre@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D819F09175640680094D0B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D819F10175640680094D0B9 /* UIKit.framework in Frameworks */,
+				7D819F12175640680094D0B9 /* Foundation.framework in Frameworks */,
+				7D819F14175640680094D0B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D819F03175640680094D0B9 = {
+			isa = PBXGroup;
+			children = (
+				7D819F15175640680094D0B9 /* OlaMundo */,
+				7D819F0E175640680094D0B9 /* Frameworks */,
+				7D819F0D175640680094D0B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D819F0D175640680094D0B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D819F0C175640680094D0B9 /* OlaMundo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D819F0E175640680094D0B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D819F0F175640680094D0B9 /* UIKit.framework */,
+				7D819F11175640680094D0B9 /* Foundation.framework */,
+				7D819F13175640680094D0B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D819F15175640680094D0B9 /* OlaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				7D819F60175668C80094D0B9 /* images */,
+				7D819F2C175643580094D0B9 /* MeuPrimeiroViewController.h */,
+				7D819F2D175643580094D0B9 /* MeuPrimeiroViewController.m */,
+				7D819F2E175643580094D0B9 /* MeuPrimeiroViewController.xib */,
+				7D819F1E175640680094D0B9 /* AppDelegate.h */,
+				7D819F1F175640680094D0B9 /* AppDelegate.m */,
+				7D819F16175640680094D0B9 /* Supporting Files */,
+			);
+			path = OlaMundo;
+			sourceTree = "<group>";
+		};
+		7D819F16175640680094D0B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D819F17175640680094D0B9 /* OlaMundo-Info.plist */,
+				7D819F18175640680094D0B9 /* InfoPlist.strings */,
+				7D819F1B175640680094D0B9 /* main.m */,
+				7D819F1D175640680094D0B9 /* OlaMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D819F60175668C80094D0B9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7D819F61175669C60094D0B9 /* appstore_1024x1024.png */,
+				7D819F62175669C60094D0B9 /* Default-568h@2x.png */,
+				7D819F63175669C60094D0B9 /* Default-Landscape@2x~iPad.png */,
+				7D819F64175669C60094D0B9 /* Default-Landscape~iPad.png */,
+				7D819F65175669C60094D0B9 /* Default-Portrait@2x~iPad.png */,
+				7D819F66175669C60094D0B9 /* Default-Portrait~iPad.png */,
+				7D819F67175669C60094D0B9 /* Default.png */,
+				7D819F68175669C60094D0B9 /* Default@2x.png */,
+				7D819F69175669C60094D0B9 /* ferrari_ff.png */,
+				7D819F6A175669C60094D0B9 /* icon-iPad.png */,
+				7D819F6B175669C60094D0B9 /* icon-iPad@2x.png */,
+				7D819F6C175669C60094D0B9 /* icon-iPhone.png */,
+				7D819F6D175669C60094D0B9 /* icon-iPhone@2x.png */,
+				7D819F6E175669C60094D0B9 /* mclaren.png */,
+				7D819F6F175669C60094D0B9 /* tab_carros.png */,
+				7D819F70175669C60094D0B9 /* tab_carros@2x.png */,
+				7D819F71175669C60094D0B9 /* tab_sobre.png */,
+				7D819F72175669C60094D0B9 /* tab_sobre@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D819F0B175640680094D0B9 /* OlaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D819F29175640680094D0B9 /* Build configuration list for PBXNativeTarget "OlaMundo" */;
+			buildPhases = (
+				7D819F08175640680094D0B9 /* Sources */,
+				7D819F09175640680094D0B9 /* Frameworks */,
+				7D819F0A175640680094D0B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaMundo;
+			productName = OlaMundo;
+			productReference = 7D819F0C175640680094D0B9 /* OlaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D819F04175640680094D0B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "André Cocuroci";
+			};
+			buildConfigurationList = 7D819F07175640680094D0B9 /* Build configuration list for PBXProject "OlaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D819F03175640680094D0B9;
+			productRefGroup = 7D819F0D175640680094D0B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D819F0B175640680094D0B9 /* OlaMundo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D819F0A175640680094D0B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D819F1A175640680094D0B9 /* InfoPlist.strings in Resources */,
+				7D819F30175643580094D0B9 /* MeuPrimeiroViewController.xib in Resources */,
+				7D819F73175669C60094D0B9 /* appstore_1024x1024.png in Resources */,
+				7D819F74175669C60094D0B9 /* Default-568h@2x.png in Resources */,
+				7D819F75175669C60094D0B9 /* Default-Landscape@2x~iPad.png in Resources */,
+				7D819F76175669C60094D0B9 /* Default-Landscape~iPad.png in Resources */,
+				7D819F77175669C60094D0B9 /* Default-Portrait@2x~iPad.png in Resources */,
+				7D819F78175669C60094D0B9 /* Default-Portrait~iPad.png in Resources */,
+				7D819F79175669C60094D0B9 /* Default.png in Resources */,
+				7D819F7A175669C60094D0B9 /* Default@2x.png in Resources */,
+				7D819F7B175669C60094D0B9 /* ferrari_ff.png in Resources */,
+				7D819F7C175669C60094D0B9 /* icon-iPad.png in Resources */,
+				7D819F7D175669C60094D0B9 /* icon-iPad@2x.png in Resources */,
+				7D819F7E175669C60094D0B9 /* icon-iPhone.png in Resources */,
+				7D819F7F175669C60094D0B9 /* icon-iPhone@2x.png in Resources */,
+				7D819F80175669C60094D0B9 /* mclaren.png in Resources */,
+				7D819F81175669C60094D0B9 /* tab_carros.png in Resources */,
+				7D819F82175669C60094D0B9 /* tab_carros@2x.png in Resources */,
+				7D819F83175669C60094D0B9 /* tab_sobre.png in Resources */,
+				7D819F84175669C60094D0B9 /* tab_sobre@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D819F08175640680094D0B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D819F1C175640680094D0B9 /* main.m in Sources */,
+				7D819F20175640680094D0B9 /* AppDelegate.m in Sources */,
+				7D819F2F175643580094D0B9 /* MeuPrimeiroViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D819F18175640680094D0B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D819F19175640680094D0B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D819F27175640680094D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D819F28175640680094D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D819F2A175640680094D0B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				INFOPLIST_FILE = "OlaMundo/OlaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D819F2B175640680094D0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMundo/OlaMundo-Prefix.pch";
+				INFOPLIST_FILE = "OlaMundo/OlaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D819F07175640680094D0B9 /* Build configuration list for PBXProject "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D819F27175640680094D0B9 /* Debug */,
+				7D819F28175640680094D0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D819F29175640680094D0B9 /* Build configuration list for PBXNativeTarget "OlaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D819F2A175640680094D0B9 /* Debug */,
+				7D819F2B175640680094D0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D819F04175640680094D0B9 /* Project object */;
+}
