@@ -9,23 +9,16 @@
 #import "LavaCar.h"
 
 @implementation LavaCar
-
-
--(void)setCarro:(Carro *)_c
-{
-    [carro release];
-    carro = _c;
-    [carro retain];
-}
+@synthesize carro;
 
 -(void)lavarCarro
 {
-    NSLog(@"Lavando o carro %@ (%d)", [carro getNome], [carro getAno]);
+    NSLog(@"Lavando o carro %@ (%d)", [self.carro getNome], [self.carro getAno]);
 }
 
 -(void)dealloc
 {
-    [carro release];
+    [self.carro release];
     [super dealloc];    
     NSLog(@"Tchau LavaCar");
 }

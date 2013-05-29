@@ -14,6 +14,8 @@
     Carro *carro;
 }
 
+@property (nonatomic, retain) Carro *carro;
+
 -(void)setCarro:(Carro *)_c;
 -(void)lavarCarro;
 
