@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D40841E1759094000BD30BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841D1759094000BD30BC /* UIKit.framework */; };
+		7D4084201759094000BD30BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841F1759094000BD30BC /* Foundation.framework */; };
+		7D4084221759094000BD30BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4084211759094000BD30BC /* CoreGraphics.framework */; };
+		7D4084281759094000BD30BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D4084261759094000BD30BC /* InfoPlist.strings */; };
+		7D40842A1759094000BD30BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4084291759094000BD30BC /* main.m */; };
+		7D40842E1759094000BD30BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40842D1759094000BD30BC /* AppDelegate.m */; };
+		7D40844E17590C9C00BD30BC /* appstore_1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40843C17590C9C00BD30BC /* appstore_1024x1024.png */; };
+		7D40844F17590C9C00BD30BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40843D17590C9C00BD30BC /* Default-568h@2x.png */; };
+		7D40845017590C9C00BD30BC /* Default-Landscape@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40843E17590C9C00BD30BC /* Default-Landscape@2x~iPad.png */; };
+		7D40845117590C9C00BD30BC /* Default-Landscape~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40843F17590C9C00BD30BC /* Default-Landscape~iPad.png */; };
+		7D40845217590C9C00BD30BC /* Default-Portrait@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844017590C9C00BD30BC /* Default-Portrait@2x~iPad.png */; };
+		7D40845317590C9C00BD30BC /* Default-Portrait~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844117590C9C00BD30BC /* Default-Portrait~iPad.png */; };
+		7D40845417590C9C00BD30BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844217590C9C00BD30BC /* Default.png */; };
+		7D40845517590C9C00BD30BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844317590C9C00BD30BC /* Default@2x.png */; };
+		7D40845617590C9C00BD30BC /* ferrari_ff.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844417590C9C00BD30BC /* ferrari_ff.png */; };
+		7D40845717590C9C00BD30BC /* icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844517590C9C00BD30BC /* icon-iPad.png */; };
+		7D40845817590C9C00BD30BC /* icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844617590C9C00BD30BC /* icon-iPad@2x.png */; };
+		7D40845B17590C9C00BD30BC /* mclaren.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844917590C9C00BD30BC /* mclaren.png */; };
+		7D40845C17590C9C00BD30BC /* tab_carros.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844A17590C9C00BD30BC /* tab_carros.png */; };
+		7D40845D17590C9C00BD30BC /* tab_carros@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844B17590C9C00BD30BC /* tab_carros@2x.png */; };
+		7D40845E17590C9C00BD30BC /* tab_sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844C17590C9C00BD30BC /* tab_sobre.png */; };
+		7D40845F17590C9C00BD30BC /* tab_sobre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40844D17590C9C00BD30BC /* tab_sobre@2x.png */; };
+		7D40846617590D8E00BD30BC /* icon-iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40846417590D8E00BD30BC /* icon-iPhone.png */; };
+		7D40846717590D8E00BD30BC /* icon-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D40846517590D8E00BD30BC /* icon-iPhone@2x.png */; };
+		7D40846E17590E7900BD30BC /* ListaCarrosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40846C17590E7900BD30BC /* ListaCarrosViewController.m */; };
+		7D40846F17590E7900BD30BC /* ListaCarrosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40846D17590E7900BD30BC /* ListaCarrosViewController.xib */; };
+		7D40847317590E9400BD30BC /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40847117590E9400BD30BC /* DetalhesViewController.m */; };
+		7D40847417590E9400BD30BC /* DetalhesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40847217590E9400BD30BC /* DetalhesViewController.xib */; };
+		7D40847817590EA100BD30BC /* SobreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40847617590EA100BD30BC /* SobreViewController.m */; };
+		7D40847917590EA100BD30BC /* SobreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40847717590EA100BD30BC /* SobreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D40841A1759094000BD30BC /* Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D40841D1759094000BD30BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D40841F1759094000BD30BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D4084211759094000BD30BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D4084251759094000BD30BC /* Carros-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carros-Info.plist"; sourceTree = "<group>"; };
+		7D4084271759094000BD30BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D4084291759094000BD30BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D40842B1759094000BD30BC /* Carros-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carros-Prefix.pch"; sourceTree = "<group>"; };
+		7D40842C1759094000BD30BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D40842D1759094000BD30BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D40843C17590C9C00BD30BC /* appstore_1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore_1024x1024.png; sourceTree = "<group>"; };
+		7D40843D17590C9C00BD30BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D40843E17590C9C00BD30BC /* Default-Landscape@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~iPad.png"; sourceTree = "<group>"; };
+		7D40843F17590C9C00BD30BC /* Default-Landscape~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~iPad.png"; sourceTree = "<group>"; };
+		7D40844017590C9C00BD30BC /* Default-Portrait@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~iPad.png"; sourceTree = "<group>"; };
+		7D40844117590C9C00BD30BC /* Default-Portrait~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~iPad.png"; sourceTree = "<group>"; };
+		7D40844217590C9C00BD30BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D40844317590C9C00BD30BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D40844417590C9C00BD30BC /* ferrari_ff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari_ff.png; sourceTree = "<group>"; };
+		7D40844517590C9C00BD30BC /* icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad.png"; sourceTree = "<group>"; };
+		7D40844617590C9C00BD30BC /* icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPad@2x.png"; sourceTree = "<group>"; };
+		7D40844917590C9C00BD30BC /* mclaren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mclaren.png; sourceTree = "<group>"; };
+		7D40844A17590C9C00BD30BC /* tab_carros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_carros.png; sourceTree = "<group>"; };
+		7D40844B17590C9C00BD30BC /* tab_carros@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_carros@2x.png"; sourceTree = "<group>"; };
+		7D40844C17590C9C00BD30BC /* tab_sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sobre.png; sourceTree = "<group>"; };
+		7D40844D17590C9C00BD30BC /* tab_sobre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sobre@2x.png"; sourceTree = "<group>"; };
+		7D40846417590D8E00BD30BC /* icon-iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPhone.png"; sourceTree = "<group>"; };
+		7D40846517590D8E00BD30BC /* icon-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-iPhone@2x.png"; sourceTree = "<group>"; };
+		7D40846B17590E7900BD30BC /* ListaCarrosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaCarrosViewController.h; sourceTree = "<group>"; };
+		7D40846C17590E7900BD30BC /* ListaCarrosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaCarrosViewController.m; sourceTree = "<group>"; };
+		7D40846D17590E7900BD30BC /* ListaCarrosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListaCarrosViewController.xib; sourceTree = "<group>"; };
+		7D40847017590E9400BD30BC /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
+		7D40847117590E9400BD30BC /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesViewController.m; sourceTree = "<group>"; };
+		7D40847217590E9400BD30BC /* DetalhesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesViewController.xib; sourceTree = "<group>"; };
+		7D40847517590EA100BD30BC /* SobreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SobreViewController.h; sourceTree = "<group>"; };
+		7D40847617590EA100BD30BC /* SobreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SobreViewController.m; sourceTree = "<group>"; };
+		7D40847717590EA100BD30BC /* SobreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SobreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4084171759094000BD30BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D40841E1759094000BD30BC /* UIKit.framework in Frameworks */,
+				7D4084201759094000BD30BC /* Foundation.framework in Frameworks */,
+				7D4084221759094000BD30BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4084111759094000BD30BC = {
+			isa = PBXGroup;
+			children = (
+				7D4084231759094000BD30BC /* Carros */,
+				7D40841C1759094000BD30BC /* Frameworks */,
+				7D40841B1759094000BD30BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D40841B1759094000BD30BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D40841A1759094000BD30BC /* Carros.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D40841C1759094000BD30BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D40841D1759094000BD30BC /* UIKit.framework */,
+				7D40841F1759094000BD30BC /* Foundation.framework */,
+				7D4084211759094000BD30BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D4084231759094000BD30BC /* Carros */ = {
+			isa = PBXGroup;
+			children = (
+				7D40846817590E5200BD30BC /* Classes */,
+				7D40843A175909E900BD30BC /* Resources */,
+				7D40842C1759094000BD30BC /* AppDelegate.h */,
+				7D40842D1759094000BD30BC /* AppDelegate.m */,
+				7D4084241759094000BD30BC /* Supporting Files */,
+			);
+			path = Carros;
+			sourceTree = "<group>";
+		};
+		7D4084241759094000BD30BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D4084251759094000BD30BC /* Carros-Info.plist */,
+				7D4084261759094000BD30BC /* InfoPlist.strings */,
+				7D4084291759094000BD30BC /* main.m */,
+				7D40842B1759094000BD30BC /* Carros-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D40843A175909E900BD30BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D40843B175909F400BD30BC /* Imgs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D40843B175909F400BD30BC /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				7D40846417590D8E00BD30BC /* icon-iPhone.png */,
+				7D40846517590D8E00BD30BC /* icon-iPhone@2x.png */,
+				7D40843C17590C9C00BD30BC /* appstore_1024x1024.png */,
+				7D40843D17590C9C00BD30BC /* Default-568h@2x.png */,
+				7D40843E17590C9C00BD30BC /* Default-Landscape@2x~iPad.png */,
+				7D40843F17590C9C00BD30BC /* Default-Landscape~iPad.png */,
+				7D40844017590C9C00BD30BC /* Default-Portrait@2x~iPad.png */,
+				7D40844117590C9C00BD30BC /* Default-Portrait~iPad.png */,
+				7D40844217590C9C00BD30BC /* Default.png */,
+				7D40844317590C9C00BD30BC /* Default@2x.png */,
+				7D40844417590C9C00BD30BC /* ferrari_ff.png */,
+				7D40844517590C9C00BD30BC /* icon-iPad.png */,
+				7D40844617590C9C00BD30BC /* icon-iPad@2x.png */,
+				7D40844917590C9C00BD30BC /* mclaren.png */,
+				7D40844A17590C9C00BD30BC /* tab_carros.png */,
+				7D40844B17590C9C00BD30BC /* tab_carros@2x.png */,
+				7D40844C17590C9C00BD30BC /* tab_sobre.png */,
+				7D40844D17590C9C00BD30BC /* tab_sobre@2x.png */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
+		7D40846817590E5200BD30BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D40846917590E5800BD30BC /* ListaCarros */,
+				7D40846A17590E6100BD30BC /* Sobre */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		7D40846917590E5800BD30BC /* ListaCarros */ = {
+			isa = PBXGroup;
+			children = (
+				7D40846B17590E7900BD30BC /* ListaCarrosViewController.h */,
+				7D40846C17590E7900BD30BC /* ListaCarrosViewController.m */,
+				7D40846D17590E7900BD30BC /* ListaCarrosViewController.xib */,
+				7D40847017590E9400BD30BC /* DetalhesViewController.h */,
+				7D40847117590E9400BD30BC /* DetalhesViewController.m */,
+				7D40847217590E9400BD30BC /* DetalhesViewController.xib */,
+			);
+			name = ListaCarros;
+			sourceTree = "<group>";
+		};
+		7D40846A17590E6100BD30BC /* Sobre */ = {
+			isa = PBXGroup;
+			children = (
+				7D40847517590EA100BD30BC /* SobreViewController.h */,
+				7D40847617590EA100BD30BC /* SobreViewController.m */,
+				7D40847717590EA100BD30BC /* SobreViewController.xib */,
+			);
+			name = Sobre;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4084191759094000BD30BC /* Carros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4084371759094000BD30BC /* Build configuration list for PBXNativeTarget "Carros" */;
+			buildPhases = (
+				7D4084161759094000BD30BC /* Sources */,
+				7D4084171759094000BD30BC /* Frameworks */,
+				7D4084181759094000BD30BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carros;
+			productName = Carros;
+			productReference = 7D40841A1759094000BD30BC /* Carros.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4084121759094000BD30BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "André Cocuroci";
+			};
+			buildConfigurationList = 7D4084151759094000BD30BC /* Build configuration list for PBXProject "Carros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D4084111759094000BD30BC;
+			productRefGroup = 7D40841B1759094000BD30BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4084191759094000BD30BC /* Carros */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4084181759094000BD30BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4084281759094000BD30BC /* InfoPlist.strings in Resources */,
+				7D40844E17590C9C00BD30BC /* appstore_1024x1024.png in Resources */,
+				7D40844F17590C9C00BD30BC /* Default-568h@2x.png in Resources */,
+				7D40845017590C9C00BD30BC /* Default-Landscape@2x~iPad.png in Resources */,
+				7D40845117590C9C00BD30BC /* Default-Landscape~iPad.png in Resources */,
+				7D40845217590C9C00BD30BC /* Default-Portrait@2x~iPad.png in Resources */,
+				7D40845317590C9C00BD30BC /* Default-Portrait~iPad.png in Resources */,
+				7D40845417590C9C00BD30BC /* Default.png in Resources */,
+				7D40845517590C9C00BD30BC /* Default@2x.png in Resources */,
+				7D40845617590C9C00BD30BC /* ferrari_ff.png in Resources */,
+				7D40845717590C9C00BD30BC /* icon-iPad.png in Resources */,
+				7D40845817590C9C00BD30BC /* icon-iPad@2x.png in Resources */,
+				7D40845B17590C9C00BD30BC /* mclaren.png in Resources */,
+				7D40845C17590C9C00BD30BC /* tab_carros.png in Resources */,
+				7D40845D17590C9C00BD30BC /* tab_carros@2x.png in Resources */,
+				7D40845E17590C9C00BD30BC /* tab_sobre.png in Resources */,
+				7D40845F17590C9C00BD30BC /* tab_sobre@2x.png in Resources */,
+				7D40846617590D8E00BD30BC /* icon-iPhone.png in Resources */,
+				7D40846717590D8E00BD30BC /* icon-iPhone@2x.png in Resources */,
+				7D40846F17590E7900BD30BC /* ListaCarrosViewController.xib in Resources */,
+				7D40847417590E9400BD30BC /* DetalhesViewController.xib in Resources */,
+				7D40847917590EA100BD30BC /* SobreViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4084161759094000BD30BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D40842A1759094000BD30BC /* main.m in Sources */,
+				7D40842E1759094000BD30BC /* AppDelegate.m in Sources */,
+				7D40846E17590E7900BD30BC /* ListaCarrosViewController.m in Sources */,
+				7D40847317590E9400BD30BC /* DetalhesViewController.m in Sources */,
+				7D40847817590EA100BD30BC /* SobreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D4084261759094000BD30BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4084271759094000BD30BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4084351759094000BD30BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4084361759094000BD30BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4084381759094000BD30BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carros/Carros-Prefix.pch";
+				INFOPLIST_FILE = "Carros/Carros-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D4084391759094000BD30BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carros/Carros-Prefix.pch";
+				INFOPLIST_FILE = "Carros/Carros-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4084151759094000BD30BC /* Build configuration list for PBXProject "Carros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4084351759094000BD30BC /* Debug */,
+				7D4084361759094000BD30BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4084371759094000BD30BC /* Build configuration list for PBXNativeTarget "Carros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4084381759094000BD30BC /* Debug */,
+				7D4084391759094000BD30BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D4084121759094000BD30BC /* Project object */;
+}
