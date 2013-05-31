@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListaCarrosViewController : UIViewController
+@interface ListaCarrosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (retain, nonatomic) IBOutlet UITableView *tableView;
+@property (retain, nonatomic) NSMutableArray *carros;
 
 @end

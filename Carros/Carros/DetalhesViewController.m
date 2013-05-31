@@ -14,25 +14,27 @@
 
 @implementation DetalhesViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    self.title = self.carro.nome;
+    self.tDesc.text = self.carro.desc;
+    self.img.image = [UIImage imageNamed:self.carro.url_foto];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc
+{
+    [_carro release];
+    [_img release];
+    [_tDesc release];
+    [super dealloc];
 }
 
 @end
