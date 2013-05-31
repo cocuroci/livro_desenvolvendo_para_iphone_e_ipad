@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4083DF1758DEAD00BD30BC /* UtilsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4083DE1758DEAD00BD30BC /* UtilsViewController.m */; };
 		7D819F10175640680094D0B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F0F175640680094D0B9 /* UIKit.framework */; };
 		7D819F12175640680094D0B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F11175640680094D0B9 /* Foundation.framework */; };
 		7D819F14175640680094D0B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D819F13175640680094D0B9 /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4083DD1758DEAD00BD30BC /* UtilsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsViewController.h; sourceTree = "<group>"; };
+		7D4083DE1758DEAD00BD30BC /* UtilsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilsViewController.m; sourceTree = "<group>"; };
 		7D819F0C175640680094D0B9 /* OlaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D819F0F175640680094D0B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D819F11175640680094D0B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 				7D819F60175668C80094D0B9 /* images */,
 				7D819F2C175643580094D0B9 /* MeuPrimeiroViewController.h */,
 				7D819F2D175643580094D0B9 /* MeuPrimeiroViewController.m */,
+				7D4083DD1758DEAD00BD30BC /* UtilsViewController.h */,
+				7D4083DE1758DEAD00BD30BC /* UtilsViewController.m */,
 				7D819F2E175643580094D0B9 /* MeuPrimeiroViewController.xib */,
 				7D819F851756A3660094D0B9 /* MeuSegundoViewController.h */,
 				7D819F861756A3660094D0B9 /* MeuSegundoViewController.m */,
@@ -254,6 +259,7 @@
 				7D819F20175640680094D0B9 /* AppDelegate.m in Sources */,
 				7D819F2F175643580094D0B9 /* MeuPrimeiroViewController.m in Sources */,
 				7D819F881756A3670094D0B9 /* MeuSegundoViewController.m in Sources */,
+				7D4083DF1758DEAD00BD30BC /* UtilsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +372,7 @@
 				7D819F2B175640680094D0B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

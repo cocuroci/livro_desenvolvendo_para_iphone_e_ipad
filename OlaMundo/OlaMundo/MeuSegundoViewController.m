@@ -31,8 +31,8 @@
     label.text = msg;
     
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+    self.title = @"Segundo View Controller";  
     
-    self.title = @"Segundo View Controller";
 }
 
 - (void)didReceiveMemoryWarning

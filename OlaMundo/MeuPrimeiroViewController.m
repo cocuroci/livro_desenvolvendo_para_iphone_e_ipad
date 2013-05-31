@@ -8,6 +8,7 @@
 
 #import "MeuPrimeiroViewController.h"
 #import "MeuSegundoViewController.h"
+#import "UtilsViewController.h"
 
 @implementation MeuPrimeiroViewController
 
@@ -26,11 +27,20 @@
     [image release];
     
     self.title = @"Primeiro View Controller";
+    
+    //self.navigationItem.titleView = [UtilsViewController getCustomNavBarView:@"Titulo Aqui"];
+    
+    
+    UIBarButtonItem *btVoltar = [[[UIBarButtonItem alloc] initWithTitle:@"Voltar" style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
+    
+    //[self.navigationItem setBackBarButtonItem:btVoltar];
+    self.navigationItem.backBarButtonItem = btVoltar;
+    
 }
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    //[self.navigationController setNavigationBarHidden:YES animated:animated];
     NSLog(@"viewWillAppear %@:", animated ? @"YES" : @"NO");
 }
 
