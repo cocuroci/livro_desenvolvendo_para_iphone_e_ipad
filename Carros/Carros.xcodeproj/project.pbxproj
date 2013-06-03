@@ -44,6 +44,13 @@
 		7D40848717592AB600BD30BC /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40848617592AB600BD30BC /* CarroCell.xib */; };
 		7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B8D175D114300A81FBD /* MyNavigationController.m */; };
 		7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B90175D121900A81FBD /* MyTabBarController.m */; };
+		7D9E9BFA175D3D3E00A81FBD /* carros_classicos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BF7175D3D3E00A81FBD /* carros_classicos.xml */; };
+		7D9E9BFB175D3D3E00A81FBD /* carros_esportivos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BF8175D3D3E00A81FBD /* carros_esportivos.xml */; };
+		7D9E9BFC175D3D3E00A81FBD /* carros_luxo.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BF9175D3D3E00A81FBD /* carros_luxo.xml */; };
+		7D9E9C00175D3D4800A81FBD /* carros_classicos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BFD175D3D4800A81FBD /* carros_classicos.json */; };
+		7D9E9C01175D3D4800A81FBD /* carros_esportivos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BFE175D3D4800A81FBD /* carros_esportivos.json */; };
+		7D9E9C02175D3D4800A81FBD /* carros_luxo.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BFF175D3D4800A81FBD /* carros_luxo.json */; };
+		7D9E9C08175D3E7500A81FBD /* XMLCarroParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9C07175D3E7500A81FBD /* XMLCarroParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +104,14 @@
 		7D9E9B8D175D114300A81FBD /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		7D9E9B8F175D121900A81FBD /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		7D9E9B90175D121900A81FBD /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		7D9E9BF7175D3D3E00A81FBD /* carros_classicos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = carros_classicos.xml; sourceTree = "<group>"; };
+		7D9E9BF8175D3D3E00A81FBD /* carros_esportivos.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = carros_esportivos.xml; sourceTree = "<group>"; };
+		7D9E9BF9175D3D3E00A81FBD /* carros_luxo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = carros_luxo.xml; sourceTree = "<group>"; };
+		7D9E9BFD175D3D4800A81FBD /* carros_classicos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carros_classicos.json; sourceTree = "<group>"; };
+		7D9E9BFE175D3D4800A81FBD /* carros_esportivos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carros_esportivos.json; sourceTree = "<group>"; };
+		7D9E9BFF175D3D4800A81FBD /* carros_luxo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carros_luxo.json; sourceTree = "<group>"; };
+		7D9E9C06175D3E7500A81FBD /* XMLCarroParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLCarroParser.h; sourceTree = "<group>"; };
+		7D9E9C07175D3E7500A81FBD /* XMLCarroParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLCarroParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,12 +181,14 @@
 		7D40843A175909E900BD30BC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7D40843B175909F400BD30BC /* Imgs */,
+				7D9E9BF6175D3C7900A81FBD /* xml */,
+				7D9E9BF5175D3C7300A81FBD /* json */,
+				7D40843B175909F400BD30BC /* imgs */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7D40843B175909F400BD30BC /* Imgs */ = {
+		7D40843B175909F400BD30BC /* imgs */ = {
 			isa = PBXGroup;
 			children = (
 				7D40846417590D8E00BD30BC /* icon-iPhone.png */,
@@ -193,24 +210,16 @@
 				7D40844C17590C9C00BD30BC /* tab_sobre.png */,
 				7D40844D17590C9C00BD30BC /* tab_sobre@2x.png */,
 			);
-			name = Imgs;
+			name = imgs;
 			sourceTree = "<group>";
 		};
 		7D40846817590E5200BD30BC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7D40847A175920AE00BD30BC /* Alerta.h */,
-				7D40847B175920AE00BD30BC /* Alerta.m */,
-				7D40847D1759218300BD30BC /* Carro.h */,
-				7D40847E1759218300BD30BC /* Carro.m */,
-				7D408480175922D500BD30BC /* CarroService.h */,
-				7D408481175922D500BD30BC /* CarroService.m */,
+				7D9E9C04175D3E3D00A81FBD /* Utils */,
+				7D9E9C03175D3E2D00A81FBD /* Domain */,
 				7D40846917590E5800BD30BC /* ListaCarros */,
 				7D40846A17590E6100BD30BC /* Sobre */,
-				7D9E9B8C175D114300A81FBD /* MyNavigationController.h */,
-				7D9E9B8D175D114300A81FBD /* MyNavigationController.m */,
-				7D9E9B8F175D121900A81FBD /* MyTabBarController.h */,
-				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -239,6 +248,60 @@
 				7D40847717590EA100BD30BC /* SobreViewController.xib */,
 			);
 			name = Sobre;
+			sourceTree = "<group>";
+		};
+		7D9E9BF5175D3C7300A81FBD /* json */ = {
+			isa = PBXGroup;
+			children = (
+				7D9E9BFD175D3D4800A81FBD /* carros_classicos.json */,
+				7D9E9BFE175D3D4800A81FBD /* carros_esportivos.json */,
+				7D9E9BFF175D3D4800A81FBD /* carros_luxo.json */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		7D9E9BF6175D3C7900A81FBD /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				7D9E9BF7175D3D3E00A81FBD /* carros_classicos.xml */,
+				7D9E9BF8175D3D3E00A81FBD /* carros_esportivos.xml */,
+				7D9E9BF9175D3D3E00A81FBD /* carros_luxo.xml */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		7D9E9C03175D3E2D00A81FBD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7D9E9C05175D3E5B00A81FBD /* XML-SAX */,
+				7D40847D1759218300BD30BC /* Carro.h */,
+				7D40847E1759218300BD30BC /* Carro.m */,
+				7D408480175922D500BD30BC /* CarroService.h */,
+				7D408481175922D500BD30BC /* CarroService.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		7D9E9C04175D3E3D00A81FBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D9E9B8C175D114300A81FBD /* MyNavigationController.h */,
+				7D9E9B8D175D114300A81FBD /* MyNavigationController.m */,
+				7D9E9B8F175D121900A81FBD /* MyTabBarController.h */,
+				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
+				7D40847A175920AE00BD30BC /* Alerta.h */,
+				7D40847B175920AE00BD30BC /* Alerta.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7D9E9C05175D3E5B00A81FBD /* XML-SAX */ = {
+			isa = PBXGroup;
+			children = (
+				7D9E9C06175D3E7500A81FBD /* XMLCarroParser.h */,
+				7D9E9C07175D3E7500A81FBD /* XMLCarroParser.m */,
+			);
+			name = "XML-SAX";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +378,12 @@
 				7D40847417590E9400BD30BC /* DetalhesViewController.xib in Resources */,
 				7D40847917590EA100BD30BC /* SobreViewController.xib in Resources */,
 				7D40848717592AB600BD30BC /* CarroCell.xib in Resources */,
+				7D9E9BFA175D3D3E00A81FBD /* carros_classicos.xml in Resources */,
+				7D9E9BFB175D3D3E00A81FBD /* carros_esportivos.xml in Resources */,
+				7D9E9BFC175D3D3E00A81FBD /* carros_luxo.xml in Resources */,
+				7D9E9C00175D3D4800A81FBD /* carros_classicos.json in Resources */,
+				7D9E9C01175D3D4800A81FBD /* carros_esportivos.json in Resources */,
+				7D9E9C02175D3D4800A81FBD /* carros_luxo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +405,7 @@
 				7D40848517592A0700BD30BC /* CarroCell.m in Sources */,
 				7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */,
 				7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */,
+				7D9E9C08175D3E7500A81FBD /* XMLCarroParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

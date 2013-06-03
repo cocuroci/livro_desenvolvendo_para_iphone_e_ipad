@@ -11,5 +11,7 @@
 @interface CarroService : NSObject
 
 +(NSMutableArray *)getCarros;
++(NSMutableArray *)getCarroByTipo:(NSString *)tipo;
++(NSMutableArray *)parserXML_SAX:(NSData *)data;
 
 @end

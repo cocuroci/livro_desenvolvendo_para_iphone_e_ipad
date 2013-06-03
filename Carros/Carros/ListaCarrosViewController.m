@@ -25,7 +25,8 @@
     
     self.title = @"Carros";
     
-    self.carros = [CarroService getCarros];
+    //self.carros = [CarroService getCarros];
+    self.carros = [CarroService getCarroByTipo:@"esportivos"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,8 +62,13 @@
 //    cell.textLabel.text = carro.nome;
 //    cell.imageView.image = [UIImage imageNamed:carro.url_foto];
     
+    //pega a imagem de uma url de internet
+    NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:carro.url_foto]];
+    UIImage *image = [[UIImage alloc] initWithData:data];
+    
     cell.cellDesc.text = carro.nome;
-    cell.cellImg.image = [UIImage imageNamed:carro.url_foto];
+    //cell.cellImg.image = [UIImage imageNamed:carro.url_foto];
+    cell.cellImg.image = image;
     
     return cell;
 }
