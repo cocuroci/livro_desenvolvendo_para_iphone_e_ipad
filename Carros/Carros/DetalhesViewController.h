@@ -14,5 +14,8 @@
 @property (nonatomic, retain) Carro *carro;
 @property (nonatomic, retain) IBOutlet UIImageView *img;
 @property (nonatomic, retain) IBOutlet UITextView *tDesc;
+@property (retain, nonatomic) IBOutlet UIView *viewHorizontal;
+@property (retain, nonatomic) IBOutlet UIView *viewVertical;
+@property (retain, nonatomic) IBOutlet UIImageView *imageHorizontal;
 
 @end

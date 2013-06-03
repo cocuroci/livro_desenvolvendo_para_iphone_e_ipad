@@ -83,6 +83,12 @@
     return 70;
 }
 
+#pragma mark - rotation iOS 6
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 #pragma mark - dealloc
 - (void)dealloc {
     [_tableView release];

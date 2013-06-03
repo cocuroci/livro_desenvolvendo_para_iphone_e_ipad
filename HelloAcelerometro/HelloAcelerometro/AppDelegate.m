@@ -1,48 +1,23 @@
 //
 //  AppDelegate.m
-//  Carros
+//  HelloAcelerometro
 //
-//  Created by André Cocuroci on 31/05/13.
+//  Created by André Cocuroci on 03/06/13.
 //  Copyright (c) 2013 André Cocuroci. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ListaCarrosViewController.h"
-#import "SobreViewController.h"
-#import "MyNavigationController.h"
-#import "MyTabBarController.h"
+
+#import "ViewController.h"
 
 @implementation AppDelegate
 
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
-    ListaCarrosViewController *liscaController = [[ListaCarrosViewController alloc] init];
-    MyNavigationController *nav1 = [[[MyNavigationController alloc] initWithRootViewController:liscaController] autorelease];
-    
-    SobreViewController *sobreController = [[SobreViewController alloc] init];
-    MyNavigationController *nav2 = [[[MyNavigationController alloc] initWithRootViewController:sobreController] autorelease];
-    
-    MyTabBarController *tabBarController = [[[MyTabBarController alloc] init] autorelease];
-    tabBarController.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
-    
-    nav1.tabBarItem.title = @"Carros";
-    nav1.tabBarItem.image = [UIImage imageNamed:@"tab_carros.png"];
-    nav2.tabBarItem.title = @"Sobre";
-    nav2.tabBarItem.image = [UIImage imageNamed:@"tab_sobre.png"];
-    
-    self.window.rootViewController = tabBarController;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

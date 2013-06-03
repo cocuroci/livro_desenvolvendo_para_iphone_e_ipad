@@ -42,6 +42,8 @@
 		7D408482175922D500BD30BC /* CarroService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D408481175922D500BD30BC /* CarroService.m */; };
 		7D40848517592A0700BD30BC /* CarroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40848417592A0700BD30BC /* CarroCell.m */; };
 		7D40848717592AB600BD30BC /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40848617592AB600BD30BC /* CarroCell.xib */; };
+		7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B8D175D114300A81FBD /* MyNavigationController.m */; };
+		7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B90175D121900A81FBD /* MyTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,10 @@
 		7D40848317592A0700BD30BC /* CarroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarroCell.h; sourceTree = "<group>"; };
 		7D40848417592A0700BD30BC /* CarroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarroCell.m; sourceTree = "<group>"; };
 		7D40848617592AB600BD30BC /* CarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarroCell.xib; sourceTree = "<group>"; };
+		7D9E9B8C175D114300A81FBD /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		7D9E9B8D175D114300A81FBD /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		7D9E9B8F175D121900A81FBD /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		7D9E9B90175D121900A81FBD /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +207,10 @@
 				7D408481175922D500BD30BC /* CarroService.m */,
 				7D40846917590E5800BD30BC /* ListaCarros */,
 				7D40846A17590E6100BD30BC /* Sobre */,
+				7D9E9B8C175D114300A81FBD /* MyNavigationController.h */,
+				7D9E9B8D175D114300A81FBD /* MyNavigationController.m */,
+				7D9E9B8F175D121900A81FBD /* MyTabBarController.h */,
+				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -324,6 +334,8 @@
 				7D40847F1759218300BD30BC /* Carro.m in Sources */,
 				7D408482175922D500BD30BC /* CarroService.m in Sources */,
 				7D40848517592A0700BD30BC /* CarroCell.m in Sources */,
+				7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */,
+				7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +452,7 @@
 				7D4084391759094000BD30BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
