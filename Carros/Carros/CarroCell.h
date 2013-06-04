@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DownloadImageView.h"
 
 @interface CarroCell : UITableViewCell
 
 @property (nonatomic, retain) IBOutlet UILabel *cellDesc;
-@property (nonatomic, retain) IBOutlet UIImageView *cellImg;
+@property (nonatomic, retain) IBOutlet DownloadImageView *cellImg;
 
 @end

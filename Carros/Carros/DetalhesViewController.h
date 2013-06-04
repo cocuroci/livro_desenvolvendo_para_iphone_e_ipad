@@ -8,14 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Carro.h"
+#import "DownloadImageView.h"
 
 @interface DetalhesViewController : UIViewController
 
 @property (nonatomic, retain) Carro *carro;
-@property (nonatomic, retain) IBOutlet UIImageView *img;
+@property (nonatomic, retain) IBOutlet DownloadImageView *img;
 @property (nonatomic, retain) IBOutlet UITextView *tDesc;
 @property (retain, nonatomic) IBOutlet UIView *viewHorizontal;
 @property (retain, nonatomic) IBOutlet UIView *viewVertical;
-@property (retain, nonatomic) IBOutlet UIImageView *imageHorizontal;
+@property (retain, nonatomic) IBOutlet DownloadImageView *imageHorizontal;
 
 @end

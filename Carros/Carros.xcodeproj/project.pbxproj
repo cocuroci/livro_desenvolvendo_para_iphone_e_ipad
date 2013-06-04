@@ -42,6 +42,8 @@
 		7D408482175922D500BD30BC /* CarroService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D408481175922D500BD30BC /* CarroService.m */; };
 		7D40848517592A0700BD30BC /* CarroCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D40848417592A0700BD30BC /* CarroCell.m */; };
 		7D40848717592AB600BD30BC /* CarroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D40848617592AB600BD30BC /* CarroCell.xib */; };
+		7D6839D4175E7062008CE1FB /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6839D3175E7062008CE1FB /* SMXMLDocument.m */; };
+		7D6839F7175E8E2A008CE1FB /* DownloadImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6839F6175E8E29008CE1FB /* DownloadImageView.m */; };
 		7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B8D175D114300A81FBD /* MyNavigationController.m */; };
 		7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9E9B90175D121900A81FBD /* MyTabBarController.m */; };
 		7D9E9BFA175D3D3E00A81FBD /* carros_classicos.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7D9E9BF7175D3D3E00A81FBD /* carros_classicos.xml */; };
@@ -100,6 +102,10 @@
 		7D40848317592A0700BD30BC /* CarroCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarroCell.h; sourceTree = "<group>"; };
 		7D40848417592A0700BD30BC /* CarroCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarroCell.m; sourceTree = "<group>"; };
 		7D40848617592AB600BD30BC /* CarroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarroCell.xib; sourceTree = "<group>"; };
+		7D6839D2175E7062008CE1FB /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		7D6839D3175E7062008CE1FB /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		7D6839F5175E8E29008CE1FB /* DownloadImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImageView.h; sourceTree = "<group>"; };
+		7D6839F6175E8E29008CE1FB /* DownloadImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImageView.m; sourceTree = "<group>"; };
 		7D9E9B8C175D114300A81FBD /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
 		7D9E9B8D175D114300A81FBD /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		7D9E9B8F175D121900A81FBD /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
@@ -158,10 +164,9 @@
 		7D4084231759094000BD30BC /* Carros */ = {
 			isa = PBXGroup;
 			children = (
+				7D6839D0175E6FF5008CE1FB /* Libs */,
 				7D40846817590E5200BD30BC /* Classes */,
 				7D40843A175909E900BD30BC /* Resources */,
-				7D40842C1759094000BD30BC /* AppDelegate.h */,
-				7D40842D1759094000BD30BC /* AppDelegate.m */,
 				7D4084241759094000BD30BC /* Supporting Files */,
 			);
 			path = Carros;
@@ -170,6 +175,8 @@
 		7D4084241759094000BD30BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D40842C1759094000BD30BC /* AppDelegate.h */,
+				7D40842D1759094000BD30BC /* AppDelegate.m */,
 				7D4084251759094000BD30BC /* Carros-Info.plist */,
 				7D4084261759094000BD30BC /* InfoPlist.strings */,
 				7D4084291759094000BD30BC /* main.m */,
@@ -229,10 +236,10 @@
 			children = (
 				7D40846B17590E7900BD30BC /* ListaCarrosViewController.h */,
 				7D40846C17590E7900BD30BC /* ListaCarrosViewController.m */,
+				7D40846D17590E7900BD30BC /* ListaCarrosViewController.xib */,
 				7D40848317592A0700BD30BC /* CarroCell.h */,
 				7D40848417592A0700BD30BC /* CarroCell.m */,
 				7D40848617592AB600BD30BC /* CarroCell.xib */,
-				7D40846D17590E7900BD30BC /* ListaCarrosViewController.xib */,
 				7D40847017590E9400BD30BC /* DetalhesViewController.h */,
 				7D40847117590E9400BD30BC /* DetalhesViewController.m */,
 				7D40847217590E9400BD30BC /* DetalhesViewController.xib */,
@@ -248,6 +255,23 @@
 				7D40847717590EA100BD30BC /* SobreViewController.xib */,
 			);
 			name = Sobre;
+			sourceTree = "<group>";
+		};
+		7D6839D0175E6FF5008CE1FB /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7D6839D1175E6FFA008CE1FB /* XMLDocument */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		7D6839D1175E6FFA008CE1FB /* XMLDocument */ = {
+			isa = PBXGroup;
+			children = (
+				7D6839D2175E7062008CE1FB /* SMXMLDocument.h */,
+				7D6839D3175E7062008CE1FB /* SMXMLDocument.m */,
+			);
+			name = XMLDocument;
 			sourceTree = "<group>";
 		};
 		7D9E9BF5175D3C7300A81FBD /* json */ = {
@@ -291,6 +315,8 @@
 				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
 				7D40847A175920AE00BD30BC /* Alerta.h */,
 				7D40847B175920AE00BD30BC /* Alerta.m */,
+				7D6839F5175E8E29008CE1FB /* DownloadImageView.h */,
+				7D6839F6175E8E29008CE1FB /* DownloadImageView.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -406,6 +432,8 @@
 				7D9E9B8E175D114300A81FBD /* MyNavigationController.m in Sources */,
 				7D9E9B91175D121900A81FBD /* MyTabBarController.m in Sources */,
 				7D9E9C08175D3E7500A81FBD /* XMLCarroParser.m in Sources */,
+				7D6839D4175E7062008CE1FB /* SMXMLDocument.m in Sources */,
+				7D6839F7175E8E2A008CE1FB /* DownloadImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +510,7 @@
 		7D4084381759094000BD30BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carros/Carros-Prefix.pch";
 				INFOPLIST_FILE = "Carros/Carros-Info.plist";
@@ -494,6 +523,7 @@
 		7D4084391759094000BD30BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Carros/Carros-Prefix.pch";
 				INFOPLIST_FILE = "Carros/Carros-Info.plist";

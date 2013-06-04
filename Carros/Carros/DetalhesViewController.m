@@ -18,16 +18,19 @@
 {
     [super viewDidLoad];
     
-    NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:self.carro.url_foto]];
-    UIImage *image = [[UIImage alloc] initWithData:data];
+//    NSData* data = [NSData dataWithContentsOfURL:[NSURL URLWithString:self.carro.url_foto]];
+//    UIImage *image = [[UIImage alloc] initWithData:data];
     
     self.title = self.carro.nome;
     self.tDesc.text = self.carro.desc;
     //self.img.image = [UIImage imageNamed:self.carro.url_foto];
     //self.imageHorizontal.image = [UIImage imageNamed:self.carro.url_foto];
     
-    self.img.image = image;
-    self.imageHorizontal.image = image;
+    //self.img.image = image;
+    //self.imageHorizontal.image = image;
+    
+    self.img.url = self.carro.url_foto;
+    self.imageHorizontal.url = self.carro.url_foto;
     
     UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
     

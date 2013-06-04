@@ -10,11 +10,11 @@
 
 @implementation CarroCell
 
--(void)dealloc
-{
-    [_cellDesc release];
-    [_cellImg release];
-    [super dealloc];
-}
+//-(void)dealloc
+//{
+//    [_cellDesc release];
+//    [_cellImg release];
+//    [super dealloc];
+//}
 
 @end
