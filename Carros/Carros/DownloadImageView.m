@@ -10,7 +10,7 @@
 
 @implementation DownloadImageView
 @synthesize url;
-#define LOG_ON YES
+#define LOG_ON NO
 #define CACHE_ON YES
 
 -(id)initWithFrame:(CGRect)frame

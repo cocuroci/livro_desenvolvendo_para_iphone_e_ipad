@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0F0C5A175F72E600D2B86C /* HttpAsyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */; };
 		7D40841E1759094000BD30BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841D1759094000BD30BC /* UIKit.framework */; };
 		7D4084201759094000BD30BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841F1759094000BD30BC /* Foundation.framework */; };
 		7D4084221759094000BD30BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4084211759094000BD30BC /* CoreGraphics.framework */; };
@@ -56,6 +57,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0F0C57175F71C600D2B86C /* HttpAsyncHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsyncHelperDelegate.h; sourceTree = "<group>"; };
+		7D0F0C58175F72E600D2B86C /* HttpAsyncHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsyncHelper.h; sourceTree = "<group>"; };
+		7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsyncHelper.m; sourceTree = "<group>"; };
 		7D40841A1759094000BD30BC /* Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D40841D1759094000BD30BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D40841F1759094000BD30BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -317,6 +321,9 @@
 				7D40847B175920AE00BD30BC /* Alerta.m */,
 				7D6839F5175E8E29008CE1FB /* DownloadImageView.h */,
 				7D6839F6175E8E29008CE1FB /* DownloadImageView.m */,
+				7D0F0C57175F71C600D2B86C /* HttpAsyncHelperDelegate.h */,
+				7D0F0C58175F72E600D2B86C /* HttpAsyncHelper.h */,
+				7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -434,6 +441,7 @@
 				7D9E9C08175D3E7500A81FBD /* XMLCarroParser.m in Sources */,
 				7D6839D4175E7062008CE1FB /* SMXMLDocument.m in Sources */,
 				7D6839F7175E8E2A008CE1FB /* DownloadImageView.m in Sources */,
+				7D0F0C5A175F72E600D2B86C /* HttpAsyncHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

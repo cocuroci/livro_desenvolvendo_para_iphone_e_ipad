@@ -12,6 +12,9 @@
 #import "Carro.h"
 #import "CarroCell.h"
 #import "CarroService.h"
+#import "HttpAsyncHelper.h"
+
+#define URL_CARROS @"http://www.livroiphone.com.br/carros/carros_%@.%@"
 
 @interface ListaCarrosViewController ()
 
@@ -30,6 +33,9 @@
     [super viewDidLoad];
     
     self.title = @"Carros";
+    
+    UIBarButtonItem *btAtualizar = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(atualizar)];    
+    self.navigationItem.rightBarButtonItem = btAtualizar;
     
     //self.carros = [CarroService getCarros];
     //self.carros = [CarroService getCarroByTipo:@"esportivos"];
@@ -64,8 +70,13 @@
 
 -(void)atualizar
 {
-    self.carros = [CarroService getCarroByTipo:self.tipo];
-    [self.tableView reloadData];
+    [self.progress startAnimating];
+    
+    NSString *url = [NSString stringWithFormat:URL_CARROS, self.tipo, @"xml"];
+    HttpAsyncHelper *http = [[[HttpAsyncHelper alloc] init] autorelease];
+    
+    http.delegate = self;
+    [http doGet:url];    
 }
 
 #pragma mark tableview delegates
@@ -154,6 +165,36 @@
     UIImage *imagem = [params objectForKey:@"image"];
     
     imgView.image = imagem;
+}
+
+#pragma mark - HttpAsyncHelperDelegate
+//requisição finalizada com sucesso
+-(void)requestEndWithData:(NSData *)data
+{
+    [self.progress stopAnimating];
+    
+    if(data && [data length] > 0)
+    {
+        self.carros = [CarroService parserXML_DOM:data];
+    }
+    
+    if(self.carros && [self.carros count] > 0)
+    {
+        [self.tableView reloadData];
+        //[self.tableView setContentOffset:CGPointMake(0, 0) animated:YES];
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+    } else
+    {
+        [Alerta alerta:@"Nenhum carro encontrado."];
+    }
+}
+
+//erro requisição
+-(void)requestEndWithError:(NSError *)error
+{
+    NSLog(@"Erro ao fazer a requisição %@", [error description]);
+    [Alerta alerta:@"Servidor temporariamente indisponível, por favor tente mais tarde."];
+    [self.progress stopAnimating];
 }
 
 #pragma mark - rotation iOS 6

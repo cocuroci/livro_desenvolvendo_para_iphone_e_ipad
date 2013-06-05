@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HttpAsyncHelperDelegate.h"
 
-@interface ListaCarrosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface ListaCarrosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, HttpAsyncHelperDelegate>
 
 @property (retain, nonatomic) IBOutlet UITableView *tableView;
 @property (retain, nonatomic) NSMutableArray *carros;
 @property (retain, nonatomic) NSString *tipo;
+@property (retain, nonatomic) IBOutlet UIActivityIndicatorView *progress;
 
 -(void)atualizar;
 -(IBAction)alterarTipo:(id)sender;
