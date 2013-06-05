@@ -26,6 +26,9 @@
 // Activity Indicator no xib
 @property (nonatomic, retain) IBOutlet UIActivityIndicatorView *progress;
 
+//Segmented Control
+@property (nonatomic, retain) IBOutlet UISegmentedControl *segmentControl;
+
 // Busca os carros pelo tipo selecionado e exibe no TableView
 - (void)atualizar;
 

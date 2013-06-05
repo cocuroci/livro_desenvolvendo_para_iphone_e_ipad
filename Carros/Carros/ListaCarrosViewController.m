@@ -13,6 +13,7 @@
 #import "CarroService.h"
 #import "DetalhesCarroViewController.h"
 #import "TransacaoUtil.h"
+#import "Prefs.h"
 
 @implementation ListaCarrosViewController
 
@@ -20,6 +21,7 @@
 @synthesize tipo;
 @synthesize tableView;
 @synthesize progress;
+@synthesize segmentControl;
 
 #pragma mark View LifeCycle
 - (void)viewDidLoad
@@ -33,7 +35,18 @@
 	[self.tableView setDelegate:self];
     [self.tableView setDataSource:self];
     
-    self.tipo = @"classicos";
+    
+    // Recupera o tipo salvo nas preferências
+    int idx = [Prefs getInteger:@"tipoIdx"];
+    
+    // Atualiza o segment control
+    [self.segmentControl setSelectedSegmentIndex:idx];
+    self.tipo = [Prefs getString:@"tipoString"];
+    
+    if(self.tipo == nil || [self.tipo isEqualToString:@""])
+    {
+        self.tipo = @"classicos";
+    }
 
     // Busca os carros
     [self atualizar];
@@ -41,7 +54,7 @@
     // Insere o botão atualizar na navigation bar
 	UIBarButtonItem *btAtualizar = [[[UIBarButtonItem alloc]
                 initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(atualizar)] autorelease];
-	self.navigationItem.rightBarButtonItem = btAtualizar;
+	self.navigationItem.rightBarButtonItem = btAtualizar;    
 }
 
 #pragma mark - Segment Control
@@ -62,6 +75,10 @@
             self.tipo = @"luxo";
             break;
     }
+    
+    // Salva o tipo nas preferências
+    [Prefs setInteger:idx chave:@"tipoIdx"];
+    [Prefs setString:tipo chave:@"tipoString"];
 
 	// Buscar os carros por tipo (classico, esportivo, luxo)
     [self atualizar];
@@ -158,7 +175,7 @@
     [progress release];
     [carros release];
     [tipo release];
-
+    [segmentControl release];
     [super dealloc];
 }
 

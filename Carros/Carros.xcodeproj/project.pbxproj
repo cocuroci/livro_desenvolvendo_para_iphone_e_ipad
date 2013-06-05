@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D0F0C64175FBD4B00D2B86C /* Prefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F0C63175FBD4B00D2B86C /* Prefs.m */; };
 		DD015AFA161778050030DD56 /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AF9161778050030DD56 /* HttpHelper.m */; };
 		DD015AFE1617780F0030DD56 /* TransacaoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AFD1617780F0030DD56 /* TransacaoUtil.m */; };
 		DD24909416163A310054D7CE /* carros_classicos.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD24909116163A310054D7CE /* carros_classicos.xml */; };
@@ -69,6 +70,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D0F0C62175FBD4B00D2B86C /* Prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefs.h; sourceTree = "<group>"; };
+		7D0F0C63175FBD4B00D2B86C /* Prefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prefs.m; sourceTree = "<group>"; };
 		DD015AF8161778050030DD56 /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
 		DD015AF9161778050030DD56 /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
 		DD015AFB1617780F0030DD56 /* Transacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transacao.h; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 				DD015AFB1617780F0030DD56 /* Transacao.h */,
 				DD015AFC1617780F0030DD56 /* TransacaoUtil.h */,
 				DD015AFD1617780F0030DD56 /* TransacaoUtil.m */,
+				7D0F0C62175FBD4B00D2B86C /* Prefs.h */,
+				7D0F0C63175FBD4B00D2B86C /* Prefs.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -534,6 +539,7 @@
 				DD015AFE1617780F0030DD56 /* TransacaoUtil.m in Sources */,
 				DDB440901628C2AE00E44A2E /* MyNavigationController.m in Sources */,
 				DDB440911628C2AE00E44A2E /* MyTabBarController.m in Sources */,
+				7D0F0C64175FBD4B00D2B86C /* Prefs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
