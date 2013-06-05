@@ -1,0 +1,34 @@
+10
+
+dir
+10115
+http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo
+http://svn.livroandroid.com.br
+
+
+
+2012-10-27T20:42:18.355070Z
+9577
+rlecheta
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+357538aa-828e-4d36-ac90-2cbde2e1d2ae
+
+HelloOpenGL_Ricardo
+dir
+
+HelloOpenGL_Ricardo.xcodeproj
+dir
+

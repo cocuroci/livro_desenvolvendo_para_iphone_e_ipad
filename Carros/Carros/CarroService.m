@@ -11,6 +11,7 @@
 #import "XMLCarroParser.h"
 #import "SMXMLDocument.h"
 //#import "SBJsonParser.h"
+#import "HttpHelper.h"
 
 @implementation CarroService
 
@@ -34,22 +35,31 @@
 
 +(NSMutableArray *)getCarroByTipo:(NSString *)tipo
 {
-    //cria o nome do arquivo
-    NSString *s = [[NSString alloc] initWithFormat:@"carros_%@", tipo];
-    //NSString *path = [[NSBundle mainBundle] pathForResource:s ofType:@"xml"];
-    NSString *path = [[NSBundle mainBundle] pathForResource:s ofType:@"json"];
+    //VERSÃO ANTIGO
+//    //cria o nome do arquivo
+//    NSString *s = [[NSString alloc] initWithFormat:@"carros_%@", tipo];
+//    //NSString *path = [[NSBundle mainBundle] pathForResource:s ofType:@"xml"];
+//    NSString *path = [[NSBundle mainBundle] pathForResource:s ofType:@"json"];
+//    
+//    //faz a leitura do arquivo local e retorna um NSData
+//    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+//    if(data.length == 0)
+//    {
+//        return nil;
+//    }
+//    
+//    //chama o metodo que sabe converser o NSData no array de carros;
+//    //NSMutableArray *carros = [self parserXML_SAX:data];
+//    //NSMutableArray *carros = [self parserXML_DOM:data];
+//    NSMutableArray *carros = [self parserJSON:data];
+//    return carros;
     
-    //faz a leitura do arquivo local e retorna um NSData
-    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
-    if(data.length == 0)
-    {
-        return nil;
-    }
+    NSString *url = [NSString stringWithFormat:URL_CARROS, tipo, @"xml"];
     
-    //chama o metodo que sabe converser o NSData no array de carros;
-    //NSMutableArray *carros = [self parserXML_SAX:data];
-    //NSMutableArray *carros = [self parserXML_DOM:data];
-    NSMutableArray *carros = [self parserJSON:data];
+    HttpHelper *http = [[[HttpHelper alloc] init] autorelease];
+    NSData *data = [http doGet:url];
+    
+    NSMutableArray *carros = [self parserXML_DOM:data];
     return carros;
 }
 

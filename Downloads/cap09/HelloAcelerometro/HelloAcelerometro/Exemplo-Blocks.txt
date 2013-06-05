@@ -1,0 +1,26 @@
+/* 
+  Exemplo-Blocks.txt
+  HelloAcelerometro
+
+  Created by Ricardo Lecheta on 10/12/12.
+  Copyright (c) 2012 Ricardo Lecheta. All rights reserved.
+*/
+
+Se quiser pode chamar a função de handler assim.
+
+Cria o Bloco primeiro.
+
+    // Block do tipo > ^(CMAccelerometerData *accelerometerData, NSError *error)
+    void (^handlerResultado) (CMAccelerometerData *,NSError *) = ^(CMAccelerometerData *accelerometerData, NSError *error) {
+        // Código aqui
+        double x = accelerometerData.acceleration.x;
+        double y = accelerometerData.acceleration.y;
+        double z = accelerometerData.acceleration.z;
+    };
+
+E depois passa esta função como parâmetro
+
+    // Inicia o monitoramento passando a função
+    self.motionManager startAccelerometerUpdatesToQueue:queue withHandler:handlerResultado];
+
+Mais sobre blocos no cap 17.

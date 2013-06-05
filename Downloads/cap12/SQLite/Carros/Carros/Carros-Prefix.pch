@@ -1,0 +1,20 @@
+//
+// Prefix header for all source files of the 'Carros' target in the 'Carros' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+// XML
+#define URL_CARROS @"http://www.livroiphone.com.br/carros/carros_%@.xml"
+
+// JSON
+//#define URL_CARROS @"http://www.livroiphone.com.br/carros/carros_%@.json"

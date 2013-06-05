@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OlaObjectiveC' target in the 'OlaObjectiveC' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

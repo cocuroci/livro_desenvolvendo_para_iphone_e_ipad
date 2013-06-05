@@ -12,9 +12,7 @@
 #import "Carro.h"
 #import "CarroCell.h"
 #import "CarroService.h"
-#import "HttpAsyncHelper.h"
-
-#define URL_CARROS @"http://www.livroiphone.com.br/carros/carros_%@.%@"
+#import "TransacaoUtil.h"
 
 @interface ListaCarrosViewController ()
 
@@ -70,13 +68,20 @@
 
 -(void)atualizar
 {
+//    [self.progress startAnimating];
+//    
+//    NSString *url = [NSString stringWithFormat:URL_CARROS, self.tipo, @"xml"];
+//    HttpAsyncHelper *http = [[[HttpAsyncHelper alloc] init] autorelease];
+//    
+//    http.delegate = self;
+//    [http doGet:url];
+    
+    self.carros = nil;
+    [self.tableView reloadData];
     [self.progress startAnimating];
     
-    NSString *url = [NSString stringWithFormat:URL_CARROS, self.tipo, @"xml"];
-    HttpAsyncHelper *http = [[[HttpAsyncHelper alloc] init] autorelease];
-    
-    http.delegate = self;
-    [http doGet:url];    
+    TransacaoUtil *tm = [[[TransacaoUtil alloc] init] autorelease];
+    [tm iniciarTransacao:self];
 }
 
 #pragma mark tableview delegates
@@ -195,6 +200,28 @@
     NSLog(@"Erro ao fazer a requisição %@", [error description]);
     [Alerta alerta:@"Servidor temporariamente indisponível, por favor tente mais tarde."];
     [self.progress stopAnimating];
+}
+
+#pragma mark - Transacao
+//Executa em uma thread
+-(void)transacaoExecutar
+{
+    self.carros = [CarroService getCarroByTipo:self.tipo];
+}
+
+//Atualiza a interface. Executa na thread principal -  UiThread
+-(void)transacaoAtualizarInterface
+{
+    [self.progress stopAnimating];
+    
+    if(self.carros && [self.carros count] > 0)
+    {
+        [self.tableView reloadData];
+    }
+    else
+    {
+        [Alerta alerta:@"Nenhum carro encontrado!"];
+    }
 }
 
 #pragma mark - rotation iOS 6

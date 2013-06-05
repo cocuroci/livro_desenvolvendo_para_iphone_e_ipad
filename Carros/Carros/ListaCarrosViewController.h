@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "HttpAsyncHelperDelegate.h"
+#import "Transacao.h"
 
-@interface ListaCarrosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, HttpAsyncHelperDelegate>
+@interface ListaCarrosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, Transacao>
 
 @property (retain, nonatomic) IBOutlet UITableView *tableView;
 @property (retain, nonatomic) NSMutableArray *carros;

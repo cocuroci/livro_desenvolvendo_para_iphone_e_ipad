@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros
+END
+ListaCarrosViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/ListaCarrosViewController.h
+END
+CarroService.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9082/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/CarroService.m
+END
+ListaCarrosViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/ListaCarrosViewController.m
+END
+DownloadImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/DownloadImageView.h
+END
+Transacao.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Transacao.h
+END
+XMLCarroParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/XMLCarroParser.h
+END
+SobreViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/SobreViewController.h
+END
+CarroCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/CarroCell.xib
+END
+DownloadImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/DownloadImageView.m
+END
+XMLCarroParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/XMLCarroParser.m
+END
+SobreViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/SobreViewController.m
+END
+DetalhesCarroViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/DetalhesCarroViewController.xib
+END
+Alerta.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Alerta.h
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/AppDelegate.h
+END
+MyTabBarController.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/MyTabBarController.h
+END
+Carros-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/9144/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Carros-Prefix.pch
+END
+Alerta.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Alerta.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/AppDelegate.m
+END
+MyTabBarController.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/MyTabBarController.m
+END
+ListaCarrosViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/ListaCarrosViewController.xib
+END
+Carro.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Carro.h
+END
+CarroCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/CarroCell.h
+END
+Carro.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Carro.m
+END
+HttpHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/HttpHelper.h
+END
+CarroCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/CarroCell.m
+END
+TransacaoUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/TransacaoUtil.h
+END
+DetalhesCarroViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/DetalhesCarroViewController.h
+END
+HttpHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/HttpHelper.m
+END
+MyNavigationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/MyNavigationController.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/main.m
+END
+TransacaoUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/9060/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/TransacaoUtil.m
+END
+DetalhesCarroViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/DetalhesCarroViewController.m
+END
+Carros-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Carros-Info.plist
+END
+MyNavigationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/MyNavigationController.m
+END
+SobreViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/SobreViewController.xib
+END
+CarroService.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/CarroService.h
+END

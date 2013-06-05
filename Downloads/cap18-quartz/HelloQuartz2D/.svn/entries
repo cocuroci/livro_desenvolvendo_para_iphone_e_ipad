@@ -1,0 +1,41 @@
+10
+
+dir
+10115
+http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloQuartz2D
+http://svn.livroandroid.com.br
+
+
+
+2012-10-20T15:50:13.365874Z
+9539
+rlecheta
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+357538aa-828e-4d36-ac90-2cbde2e1d2ae
+
+
+
+
+
+
+0
+
+HelloQuartz2D
+dir
+
+HelloQuartz2D.xcodeproj
+dir
+

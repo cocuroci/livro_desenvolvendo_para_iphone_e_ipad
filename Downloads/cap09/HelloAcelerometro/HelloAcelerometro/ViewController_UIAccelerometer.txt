@@ -1,0 +1,61 @@
+//
+//  ViewController.m
+//  HelloAcelerometro
+//
+//  Created by Ricardo Lecheta on 10/6/12.
+//  Copyright (c) 2012 Ricardo Lecheta. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@implementation ViewController
+
+@synthesize labelX;
+@synthesize labelY;
+@synthesize labelZ;
+
+@synthesize progressX;
+@synthesize progressY;
+@synthesize progressZ;
+
+#pragma mark View lifecycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    // Inicia o acelerômetro
+    UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
+
+    // Tempo para receber updates (em segundos)
+    accelerometer.updateInterval = 0.1;
+
+    // Deletage
+    accelerometer.delegate = self;
+}
+-  (void)viewDidUnload {
+    // Para o monitoramento
+    [UIAccelerometer sharedAccelerometer].delegate = nil;
+    
+    [super viewDidUnload];
+}
+
+#pragma mark UIAccelerometerDelegate
+- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
+    labelX.text = [NSString stringWithFormat:@"%@%f", @"X: ", acceleration.x];
+    labelY.text = [NSString stringWithFormat:@"%@%f", @"Y: ", acceleration.y];
+    labelZ.text = [NSString stringWithFormat:@"%@%f", @"Z: ", acceleration.z];
+    
+    self.progressX.progress = ABS(acceleration.x);
+    self.progressY.progress = ABS(acceleration.y);
+    self.progressZ.progress = ABS(acceleration.z);
+}
+
+#pragma mark - rotation iOS 5
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return toInterfaceOrientation == UIInterfaceOrientationPortrait;
+}
+#pragma mark - rotation iOS 6
+- (NSUInteger) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+@end

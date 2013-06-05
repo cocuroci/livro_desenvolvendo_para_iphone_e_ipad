@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/9577/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/AppDelegate.h
+END
+Default@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/Default@2x.png
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/ViewController.m
+END
+HelloOpenGL_Ricardo-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo-Info.plist
+END
+OpenGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9577/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/OpenGLView.m
+END
+Default-568h@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/Default-568h@2x.png
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/AppDelegate.m
+END
+SimpleVertex.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/9577/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/SimpleVertex.glsl
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/main.m
+END
+SimpleFragment.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/9577/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/SimpleFragment.glsl
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/ViewController.h
+END
+HelloOpenGL_Ricardo-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo-Prefix.pch
+END
+Default.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9536/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/Default.png
+END
+OpenGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9577/Livro/iOS/Livro_iOS_src_final/cap18-quartz/HelloOpenGL_Ricardo/HelloOpenGL_Ricardo/OpenGLView.h
+END

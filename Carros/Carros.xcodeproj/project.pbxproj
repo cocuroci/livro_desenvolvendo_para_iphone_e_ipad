@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D0F0C5A175F72E600D2B86C /* HttpAsyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */; };
+		7D0F0C5D175FA7CE00D2B86C /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F0C5C175FA7CE00D2B86C /* HttpHelper.m */; };
+		7D0F0C61175FA9AC00D2B86C /* TransacaoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0F0C60175FA9AC00D2B86C /* TransacaoUtil.m */; };
 		7D40841E1759094000BD30BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841D1759094000BD30BC /* UIKit.framework */; };
 		7D4084201759094000BD30BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D40841F1759094000BD30BC /* Foundation.framework */; };
 		7D4084221759094000BD30BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4084211759094000BD30BC /* CoreGraphics.framework */; };
@@ -60,6 +62,11 @@
 		7D0F0C57175F71C600D2B86C /* HttpAsyncHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsyncHelperDelegate.h; sourceTree = "<group>"; };
 		7D0F0C58175F72E600D2B86C /* HttpAsyncHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsyncHelper.h; sourceTree = "<group>"; };
 		7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsyncHelper.m; sourceTree = "<group>"; };
+		7D0F0C5B175FA7CE00D2B86C /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
+		7D0F0C5C175FA7CE00D2B86C /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
+		7D0F0C5E175FA95D00D2B86C /* Transacao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transacao.h; sourceTree = "<group>"; };
+		7D0F0C5F175FA9AC00D2B86C /* TransacaoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransacaoUtil.h; sourceTree = "<group>"; };
+		7D0F0C60175FA9AC00D2B86C /* TransacaoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransacaoUtil.m; sourceTree = "<group>"; };
 		7D40841A1759094000BD30BC /* Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D40841D1759094000BD30BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7D40841F1759094000BD30BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,6 +234,10 @@
 		7D40846817590E5200BD30BC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7D9E9B8C175D114300A81FBD /* MyNavigationController.h */,
+				7D9E9B8D175D114300A81FBD /* MyNavigationController.m */,
+				7D9E9B8F175D121900A81FBD /* MyTabBarController.h */,
+				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
 				7D9E9C04175D3E3D00A81FBD /* Utils */,
 				7D9E9C03175D3E2D00A81FBD /* Domain */,
 				7D40846917590E5800BD30BC /* ListaCarros */,
@@ -313,10 +324,6 @@
 		7D9E9C04175D3E3D00A81FBD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				7D9E9B8C175D114300A81FBD /* MyNavigationController.h */,
-				7D9E9B8D175D114300A81FBD /* MyNavigationController.m */,
-				7D9E9B8F175D121900A81FBD /* MyTabBarController.h */,
-				7D9E9B90175D121900A81FBD /* MyTabBarController.m */,
 				7D40847A175920AE00BD30BC /* Alerta.h */,
 				7D40847B175920AE00BD30BC /* Alerta.m */,
 				7D6839F5175E8E29008CE1FB /* DownloadImageView.h */,
@@ -324,6 +331,11 @@
 				7D0F0C57175F71C600D2B86C /* HttpAsyncHelperDelegate.h */,
 				7D0F0C58175F72E600D2B86C /* HttpAsyncHelper.h */,
 				7D0F0C59175F72E600D2B86C /* HttpAsyncHelper.m */,
+				7D0F0C5B175FA7CE00D2B86C /* HttpHelper.h */,
+				7D0F0C5C175FA7CE00D2B86C /* HttpHelper.m */,
+				7D0F0C5E175FA95D00D2B86C /* Transacao.h */,
+				7D0F0C5F175FA9AC00D2B86C /* TransacaoUtil.h */,
+				7D0F0C60175FA9AC00D2B86C /* TransacaoUtil.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -442,6 +454,8 @@
 				7D6839D4175E7062008CE1FB /* SMXMLDocument.m in Sources */,
 				7D6839F7175E8E2A008CE1FB /* DownloadImageView.m in Sources */,
 				7D0F0C5A175F72E600D2B86C /* HttpAsyncHelper.m in Sources */,
+				7D0F0C5D175FA7CE00D2B86C /* HttpHelper.m in Sources */,
+				7D0F0C61175FA9AC00D2B86C /* TransacaoUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

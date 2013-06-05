@@ -1,0 +1,34 @@
+10
+
+dir
+10115
+http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap05-nav/OlaStoryboard
+http://svn.livroandroid.com.br
+
+
+
+2012-10-03T20:12:45.580868Z
+9217
+rlecheta
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+357538aa-828e-4d36-ac90-2cbde2e1d2ae
+
+OlaStoryboard
+dir
+
+OlaStoryboard.xcodeproj
+dir
+

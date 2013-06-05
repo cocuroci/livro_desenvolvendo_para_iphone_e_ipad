@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros
+END
+ListaCarrosViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/ListaCarrosViewController.h
+END
+CarroService.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/9217/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroService.m
+END
+ListaCarrosViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/ListaCarrosViewController.m
+END
+Prefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Prefs.h
+END
+Prefs.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Prefs.m
+END
+DownloadImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/DownloadImageView.h
+END
+Transacao.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Transacao.h
+END
+XMLCarroParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/XMLCarroParser.h
+END
+SobreViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/SobreViewController.h
+END
+CarroCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroCell.xib
+END
+DownloadImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/DownloadImageView.m
+END
+XMLCarroParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/XMLCarroParser.m
+END
+SobreViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/SobreViewController.m
+END
+DetalhesCarroViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/DetalhesCarroViewController.xib
+END
+Alerta.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Alerta.h
+END
+MapViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/9117/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MapViewController.xib
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/AppDelegate.h
+END
+MyTabBarController.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MyTabBarController.h
+END
+Carros-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/9144/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Carros-Prefix.pch
+END
+Alerta.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Alerta.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/AppDelegate.m
+END
+MyTabBarController.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MyTabBarController.m
+END
+CarroDB.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroDB.h
+END
+ListaCarrosViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/ListaCarrosViewController.xib
+END
+Carro.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Carro.h
+END
+CarroCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroCell.h
+END
+CarroDB.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroDB.m
+END
+Carro.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Carro.m
+END
+HttpHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/HttpHelper.h
+END
+CarroCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroCell.m
+END
+TransacaoUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/TransacaoUtil.h
+END
+DetalhesCarroViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9117/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/DetalhesCarroViewController.h
+END
+SQLiteHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/SQLiteHelper.h
+END
+HttpHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/HttpHelper.m
+END
+MyNavigationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MyNavigationController.h
+END
+MapViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/9388/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MapViewController.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/main.m
+END
+TransacaoUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/TransacaoUtil.m
+END
+DetalhesCarroViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/DetalhesCarroViewController.m
+END
+SQLiteHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/SQLiteHelper.m
+END
+Carros-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/9117/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Carros-Info.plist
+END
+MyNavigationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MyNavigationController.m
+END
+MapViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/9388/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/MapViewController.m
+END
+SobreViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/SobreViewController.xib
+END
+CarroService.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/CarroService.h
+END

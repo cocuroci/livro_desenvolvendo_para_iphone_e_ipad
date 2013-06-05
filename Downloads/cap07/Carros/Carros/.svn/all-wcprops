@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/9291/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/AppDelegate.h
+END
+ListaCarrosViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/ListaCarrosViewController.h
+END
+DetalhesViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/DetalhesViewController.h
+END
+Carros-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/Carros-Prefix.pch
+END
+SobreViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/8883/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/SobreViewController.h
+END
+ListaCarrosViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/8878/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/ListaCarrosViewController.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/AppDelegate.m
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/main.m
+END
+DetalhesViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/8878/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/DetalhesViewController.m
+END
+SobreViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/10116/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/SobreViewController.m
+END
+ListaCarrosViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/8878/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/ListaCarrosViewController.xib
+END
+Carros-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/8876/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/Carros-Info.plist
+END
+DetalhesViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/8878/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/DetalhesViewController.xib
+END
+SobreViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/8883/Livro/iOS/Livro_iOS_src_final/cap07/Carros/Carros/SobreViewController.xib
+END

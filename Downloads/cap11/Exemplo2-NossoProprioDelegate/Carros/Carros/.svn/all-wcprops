@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros
+END
+ListaCarrosViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/9057/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/ListaCarrosViewController.h
+END
+HttpAsyncHelper.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9057/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/HttpAsyncHelper.m
+END
+CarroService.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/CarroService.m
+END
+ListaCarrosViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/ListaCarrosViewController.m
+END
+DownloadImageView.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/DownloadImageView.h
+END
+XMLCarroParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/XMLCarroParser.h
+END
+SobreViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/SobreViewController.h
+END
+CarroCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/CarroCell.xib
+END
+DownloadImageView.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/9057/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/DownloadImageView.m
+END
+XMLCarroParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/XMLCarroParser.m
+END
+SobreViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/SobreViewController.m
+END
+DetalhesCarroViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/9550/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/DetalhesCarroViewController.xib
+END
+Alerta.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Alerta.h
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/AppDelegate.h
+END
+MyTabBarController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/MyTabBarController.h
+END
+HttpAsyncHelperDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/9057/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/HttpAsyncHelperDelegate.h
+END
+Carros-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Carros-Prefix.pch
+END
+Alerta.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Alerta.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/AppDelegate.m
+END
+MyTabBarController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/MyTabBarController.m
+END
+ListaCarrosViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/ListaCarrosViewController.xib
+END
+Carro.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Carro.h
+END
+CarroCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/CarroCell.h
+END
+Carro.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Carro.m
+END
+CarroCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/CarroCell.m
+END
+DetalhesCarroViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/DetalhesCarroViewController.h
+END
+MyNavigationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/MyNavigationController.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/main.m
+END
+DetalhesCarroViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/9377/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/DetalhesCarroViewController.m
+END
+Carros-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/Carros-Info.plist
+END
+MyNavigationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/9374/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/MyNavigationController.m
+END
+HttpAsyncHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9057/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/HttpAsyncHelper.h
+END
+SobreViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/SobreViewController.xib
+END
+CarroService.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/9056/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo2-NossoProprioDelegate/Carros/Carros/CarroService.h
+END

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework
+END
+SBJsonStreamWriterState.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriterState.h
+END
+SBJsonUTF8Stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonUTF8Stream.h
+END
+SBJsonWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonWriter.h
+END
+SBJsonStreamWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriter.h
+END
+SBJsonStreamWriterState.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriterState.m
+END
+SBJsonUTF8Stream.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonUTF8Stream.m
+END
+SBJsonWriter.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonWriter.m
+END
+SBJsonStreamWriter.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriter.m
+END
+SBJsonStreamParserAccumulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserAccumulator.h
+END
+SBJsonStreamParserAccumulator.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserAccumulator.m
+END
+SBJsonParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonParser.h
+END
+SBJsonStreamParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParser.h
+END
+SBJson.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJson.h
+END
+SBJsonTokeniser.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonTokeniser.h
+END
+SBJsonStreamParserAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserAdapter.h
+END
+SBJsonStreamParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParser.m
+END
+SBJsonParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonParser.m
+END
+SBJsonStreamParserState.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserState.h
+END
+SBJsonStreamWriterAccumulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriterAccumulator.h
+END
+SBJsonStreamParserAdapter.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserAdapter.m
+END
+NSObject+SBJson.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/NSObject+SBJson.h
+END
+SBJsonTokeniser.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonTokeniser.m
+END
+SBJsonStreamParserState.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamParserState.m
+END
+SBJsonStreamWriterAccumulator.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/SBJsonStreamWriterAccumulator.m
+END
+NSObject+SBJson.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/9098/Livro/iOS/Livro_iOS_src_final/cap13/Carros/Carros/Libs/JSON-Framework/NSObject+SBJson.m
+END

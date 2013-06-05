@@ -1,0 +1,84 @@
+//
+//  ViewController.m
+//  HelloAcelerometro
+//
+//  Created by Ricardo Lecheta on 10/6/12.
+//  Copyright (c) 2012 Ricardo Lecheta. All rights reserved.
+//
+
+#import "ViewController.h"
+
+@implementation ViewController
+
+@synthesize labelX;
+@synthesize labelY;
+@synthesize labelZ;
+
+@synthesize progressX;
+@synthesize progressY;
+@synthesize progressZ;
+
+@synthesize motionManager;
+
+#pragma mark View lifecycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    // Inicia o acelerômetro
+    self.motionManager = [[CMMotionManager alloc] init];
+    
+    // Tempo para receber updates
+    self.motionManager.accelerometerUpdateInterval = 0.1;
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+
+    /*
+    // Block do tipo > ^(CMAccelerometerData *accelerometerData, NSError *error)
+    void (^handlerResultado) (CMAccelerometerData *,NSError *) = ^(CMAccelerometerData *accelerometerData, NSError *error) {
+        // Código aqui
+        double x = accelerometerData.acceleration.x;
+        double y = accelerometerData.acceleration.y;
+        double z = accelerometerData.acceleration.z;
+    };
+     */
+
+    // Inicia o monitoramento passando a função
+//    [self.motionManager startAccelerometerUpdatesToQueue:queue withHandler:handlerResultado];
+    
+     // Inicia o monitoramento e passa direto a função de handler
+     [self.motionManager startAccelerometerUpdatesToQueue:queue withHandler:
+        ^(CMAccelerometerData *accelerometerData, NSError *error)
+        {
+            [self performSelectorOnMainThread:@selector(atualizaTela:) withObject:accelerometerData waitUntilDone:YES];
+        }
+      ];
+}
+
+// Atualiza a tela na thread principal (UI Thread)
+- (void) atualizaTela:(CMAccelerometerData *)accelerometerData {
+    labelX.text = [NSString stringWithFormat:@"%@%f", @"X: ", accelerometerData.acceleration.x];
+    labelY.text = [NSString stringWithFormat:@"%@%f", @"Y: ", accelerometerData.acceleration.y];
+    labelZ.text = [NSString stringWithFormat:@"%@%f", @"Z: ", accelerometerData.acceleration.z];
+    
+    self.progressX.progress = ABS(accelerometerData.acceleration.x);
+    self.progressY.progress = ABS(accelerometerData.acceleration.y);
+    self.progressZ.progress = ABS(accelerometerData.acceleration.z);
+}
+
+-  (void)viewDidUnload {
+    // Para o monitoramento
+    [self.motionManager stopAccelerometerUpdates];
+    
+    [super viewDidUnload];
+}
+
+#pragma mark - rotation iOS 5
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return toInterfaceOrientation == UIInterfaceOrientationPortrait;
+}
+#pragma mark - rotation iOS 6
+- (NSUInteger) supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+@end

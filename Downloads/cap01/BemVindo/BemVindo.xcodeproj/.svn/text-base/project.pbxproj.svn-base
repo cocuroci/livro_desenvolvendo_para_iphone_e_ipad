@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAEAD22163C68BD006F473B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAEAD21163C68BD006F473B /* UIKit.framework */; };
+		DDAEAD24163C68BD006F473B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAEAD23163C68BD006F473B /* Foundation.framework */; };
+		DDAEAD26163C68BD006F473B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAEAD25163C68BD006F473B /* CoreGraphics.framework */; };
+		DDAEAD2C163C68BD006F473B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD2A163C68BD006F473B /* InfoPlist.strings */; };
+		DDAEAD2E163C68BD006F473B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAEAD2D163C68BD006F473B /* main.m */; };
+		DDAEAD32163C68BD006F473B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAEAD31163C68BD006F473B /* AppDelegate.m */; };
+		DDAEAD34163C68BD006F473B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD33163C68BD006F473B /* Default.png */; };
+		DDAEAD36163C68BD006F473B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD35163C68BD006F473B /* Default@2x.png */; };
+		DDAEAD38163C68BD006F473B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD37163C68BD006F473B /* Default-568h@2x.png */; };
+		DDAEAD3B163C68BD006F473B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAEAD3A163C68BD006F473B /* ViewController.m */; };
+		DDAEAD3E163C68BD006F473B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD3C163C68BD006F473B /* ViewController_iPhone.xib */; };
+		DDAEAD41163C68BD006F473B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAEAD3F163C68BD006F473B /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDAEAD1D163C68BD006F473B /* BemVindo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BemVindo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAEAD21163C68BD006F473B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDAEAD23163C68BD006F473B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDAEAD25163C68BD006F473B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDAEAD29163C68BD006F473B /* BemVindo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BemVindo-Info.plist"; sourceTree = "<group>"; };
+		DDAEAD2B163C68BD006F473B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDAEAD2D163C68BD006F473B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDAEAD2F163C68BD006F473B /* BemVindo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BemVindo-Prefix.pch"; sourceTree = "<group>"; };
+		DDAEAD30163C68BD006F473B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDAEAD31163C68BD006F473B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDAEAD33163C68BD006F473B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDAEAD35163C68BD006F473B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DDAEAD37163C68BD006F473B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DDAEAD39163C68BD006F473B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDAEAD3A163C68BD006F473B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDAEAD3D163C68BD006F473B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DDAEAD40163C68BD006F473B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAEAD1A163C68BD006F473B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAEAD22163C68BD006F473B /* UIKit.framework in Frameworks */,
+				DDAEAD24163C68BD006F473B /* Foundation.framework in Frameworks */,
+				DDAEAD26163C68BD006F473B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAEAD12163C68BD006F473B = {
+			isa = PBXGroup;
+			children = (
+				DDAEAD27163C68BD006F473B /* BemVindo */,
+				DDAEAD20163C68BD006F473B /* Frameworks */,
+				DDAEAD1E163C68BD006F473B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAEAD1E163C68BD006F473B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEAD1D163C68BD006F473B /* BemVindo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAEAD20163C68BD006F473B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEAD21163C68BD006F473B /* UIKit.framework */,
+				DDAEAD23163C68BD006F473B /* Foundation.framework */,
+				DDAEAD25163C68BD006F473B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDAEAD27163C68BD006F473B /* BemVindo */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEAD30163C68BD006F473B /* AppDelegate.h */,
+				DDAEAD31163C68BD006F473B /* AppDelegate.m */,
+				DDAEAD39163C68BD006F473B /* ViewController.h */,
+				DDAEAD3A163C68BD006F473B /* ViewController.m */,
+				DDAEAD3C163C68BD006F473B /* ViewController_iPhone.xib */,
+				DDAEAD3F163C68BD006F473B /* ViewController_iPad.xib */,
+				DDAEAD28163C68BD006F473B /* Supporting Files */,
+			);
+			path = BemVindo;
+			sourceTree = "<group>";
+		};
+		DDAEAD28163C68BD006F473B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEAD29163C68BD006F473B /* BemVindo-Info.plist */,
+				DDAEAD2A163C68BD006F473B /* InfoPlist.strings */,
+				DDAEAD2D163C68BD006F473B /* main.m */,
+				DDAEAD2F163C68BD006F473B /* BemVindo-Prefix.pch */,
+				DDAEAD33163C68BD006F473B /* Default.png */,
+				DDAEAD35163C68BD006F473B /* Default@2x.png */,
+				DDAEAD37163C68BD006F473B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAEAD1C163C68BD006F473B /* BemVindo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAEAD44163C68BD006F473B /* Build configuration list for PBXNativeTarget "BemVindo" */;
+			buildPhases = (
+				DDAEAD19163C68BD006F473B /* Sources */,
+				DDAEAD1A163C68BD006F473B /* Frameworks */,
+				DDAEAD1B163C68BD006F473B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BemVindo;
+			productName = BemVindo;
+			productReference = DDAEAD1D163C68BD006F473B /* BemVindo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAEAD14163C68BD006F473B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ricardo Lecheta";
+			};
+			buildConfigurationList = DDAEAD17163C68BD006F473B /* Build configuration list for PBXProject "BemVindo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDAEAD12163C68BD006F473B;
+			productRefGroup = DDAEAD1E163C68BD006F473B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAEAD1C163C68BD006F473B /* BemVindo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAEAD1B163C68BD006F473B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAEAD2C163C68BD006F473B /* InfoPlist.strings in Resources */,
+				DDAEAD34163C68BD006F473B /* Default.png in Resources */,
+				DDAEAD36163C68BD006F473B /* Default@2x.png in Resources */,
+				DDAEAD38163C68BD006F473B /* Default-568h@2x.png in Resources */,
+				DDAEAD3E163C68BD006F473B /* ViewController_iPhone.xib in Resources */,
+				DDAEAD41163C68BD006F473B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAEAD19163C68BD006F473B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAEAD2E163C68BD006F473B /* main.m in Sources */,
+				DDAEAD32163C68BD006F473B /* AppDelegate.m in Sources */,
+				DDAEAD3B163C68BD006F473B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDAEAD2A163C68BD006F473B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAEAD2B163C68BD006F473B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDAEAD3C163C68BD006F473B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAEAD3D163C68BD006F473B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DDAEAD3F163C68BD006F473B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAEAD40163C68BD006F473B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDAEAD42163C68BD006F473B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDAEAD43163C68BD006F473B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAEAD45163C68BD006F473B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BemVindo/BemVindo-Prefix.pch";
+				INFOPLIST_FILE = "BemVindo/BemVindo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDAEAD46163C68BD006F473B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BemVindo/BemVindo-Prefix.pch";
+				INFOPLIST_FILE = "BemVindo/BemVindo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAEAD17163C68BD006F473B /* Build configuration list for PBXProject "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAEAD42163C68BD006F473B /* Debug */,
+				DDAEAD43163C68BD006F473B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAEAD44163C68BD006F473B /* Build configuration list for PBXNativeTarget "BemVindo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAEAD45163C68BD006F473B /* Debug */,
+				DDAEAD46163C68BD006F473B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAEAD14163C68BD006F473B /* Project object */;
+}

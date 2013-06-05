@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/9549/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/8885/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/AppDelegate.h
+END
+ListaCarrosViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/8892/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/ListaCarrosViewController.h
+END
+MyTabBarController.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/MyTabBarController.h
+END
+CarroService.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/CarroService.m
+END
+Carros-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/8885/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Carros-Prefix.pch
+END
+Alerta.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Alerta.m
+END
+ListaCarrosViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/10116/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/ListaCarrosViewController.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/AppDelegate.m
+END
+MyTabBarController.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/MyTabBarController.m
+END
+ListaCarrosViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/ListaCarrosViewController.xib
+END
+Carro.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Carro.h
+END
+CarroCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/CarroCell.h
+END
+Carro.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/9080/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Carro.m
+END
+CarroCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/CarroCell.m
+END
+SobreViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/8885/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/SobreViewController.h
+END
+DetalhesCarroViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/DetalhesCarroViewController.h
+END
+CarroCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/CarroCell.xib
+END
+MyNavigationController.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/MyNavigationController.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/8885/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/main.m
+END
+SobreViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/SobreViewController.m
+END
+DetalhesCarroViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/DetalhesCarroViewController.m
+END
+Carros-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Carros-Info.plist
+END
+MyNavigationController.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/9367/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/MyNavigationController.m
+END
+SobreViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/8885/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/SobreViewController.xib
+END
+DetalhesCarroViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/9549/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/DetalhesCarroViewController.xib
+END
+CarroService.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/8892/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/CarroService.h
+END
+Alerta.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/8886/Livro/iOS/Livro_iOS_src_final/cap08/Carros/Carros/Alerta.h
+END
