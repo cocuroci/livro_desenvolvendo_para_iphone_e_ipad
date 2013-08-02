@@ -14,6 +14,7 @@
 #import "DetalhesCarroViewController.h"
 #import "TransacaoUtil.h"
 #import "Prefs.h"
+#import "Utils.h"
 
 @implementation ListaCarrosViewController
 
@@ -175,10 +176,24 @@
     }
 }
 
+#pragma mark rotation iOS 5
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    if ([Utils isIpad]) {
+        return YES;
+    } else {
+        return UIInterfaceOrientationPortrait;
+    }
+}
+
 #pragma mark rotation iOS 6
 - (NSUInteger) supportedInterfaceOrientations {
     // Apenas vertical
-    return UIInterfaceOrientationMaskPortrait;
+    if ([Utils isIpad]) {
+        return UIInterfaceOrientationMaskAll;
+    } else {
+        return UIInterfaceOrientationMaskPortrait;
+    }
 }
 
 #pragma mark dealloc

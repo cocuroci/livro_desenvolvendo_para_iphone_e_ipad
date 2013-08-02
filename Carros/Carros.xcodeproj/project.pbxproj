@@ -15,6 +15,7 @@
 		7D1223D617AAF5AA00E3DA6A /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1223D417AAF5AA00E3DA6A /* VideoViewController.xib */; };
 		7D1223D817AAF76E00E3DA6A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1223D717AAF76E00E3DA6A /* MediaPlayer.framework */; };
 		7D1223DB17AAF7A900E3DA6A /* VideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1223DA17AAF7A900E3DA6A /* VideoUtil.m */; };
+		7DF99EC817AC2EFE00E7AA8C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF99EC717AC2EFE00E7AA8C /* Utils.m */; };
 		DD015AFA161778050030DD56 /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AF9161778050030DD56 /* HttpHelper.m */; };
 		DD015AFE1617780F0030DD56 /* TransacaoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AFD1617780F0030DD56 /* TransacaoUtil.m */; };
 		DD015B0916187CFD0030DD56 /* Prefs.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015B0816187CFC0030DD56 /* Prefs.m */; };
@@ -93,6 +94,8 @@
 		7D1223D717AAF76E00E3DA6A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		7D1223D917AAF7A900E3DA6A /* VideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoUtil.h; sourceTree = "<group>"; };
 		7D1223DA17AAF7A900E3DA6A /* VideoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoUtil.m; sourceTree = "<group>"; };
+		7DF99EC617AC2EFE00E7AA8C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7DF99EC717AC2EFE00E7AA8C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		DD015AF8161778050030DD56 /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
 		DD015AF9161778050030DD56 /* HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHelper.m; sourceTree = "<group>"; };
 		DD015AFB1617780F0030DD56 /* Transacao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transacao.h; sourceTree = "<group>"; };
@@ -375,6 +378,8 @@
 				DD015AFD1617780F0030DD56 /* TransacaoUtil.m */,
 				7D1223D917AAF7A900E3DA6A /* VideoUtil.h */,
 				7D1223DA17AAF7A900E3DA6A /* VideoUtil.m */,
+				7DF99EC617AC2EFE00E7AA8C /* Utils.h */,
+				7DF99EC717AC2EFE00E7AA8C /* Utils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				7D1223D017AA98C100E3DA6A /* MapaViewController.m in Sources */,
 				7D1223D517AAF5AA00E3DA6A /* VideoViewController.m in Sources */,
 				7D1223DB17AAF7A900E3DA6A /* VideoUtil.m in Sources */,
+				7DF99EC817AC2EFE00E7AA8C /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

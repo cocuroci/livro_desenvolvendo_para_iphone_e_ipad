@@ -9,9 +9,11 @@
 #import "AppDelegate.h"
 #import "ListaCarrosViewController.h"
 #import "SobreViewController.h"
-
+#import "DetalhesCarroViewController.h"
 #import "MyTabBarController.h"
 #import "MyNavigationController.h"
+#import "Utils.h"
+
 
 @implementation AppDelegate
 
@@ -24,32 +26,58 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    if ([Utils isIpad]) {
+        [self initIpad];
+    } else {
+        [self initIphone];
+    }
+    
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
+- (void)initIphone
+{
     // Tab 1: Cria um NavigationController com o ListaCarrosViewController
     ListaCarrosViewController *listaController = [[ListaCarrosViewController alloc] init];
     MyNavigationController *nav1 = [[[MyNavigationController alloc] init] autorelease];
     [nav1 pushViewController:listaController animated:NO];
-
+    
     // Tab 2: Cria um NavigationController com o SobreViewController
     SobreViewController *sobreController = [[SobreViewController alloc] init];
     MyNavigationController *nav2 = [[[MyNavigationController alloc] init] autorelease];
     [nav2 pushViewController:sobreController animated:NO];
-
+    
     // Cria a TabBarController (Tab 1 = Lista, Tab 2 = Sobre)
     MyTabBarController *tabBarController = [[[MyTabBarController alloc] init] autorelease];
     tabBarController.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
-
+    
     // Título e imagem de cada Tab
     nav1.tabBarItem.title = @"Carros";
     nav1.tabBarItem.image = [UIImage imageNamed:@"tab_carros.png"];
     nav2.tabBarItem.title = @"Sobre";
     nav2.tabBarItem.image = [UIImage imageNamed:@"tab_sobre.png"];
-
+    
     // Deixa a TabBarController como o controller principal
     self.window.rootViewController = tabBarController;
-    [self.window makeKeyAndVisible];
+}
 
-    return YES;
+- (void)initIpad
+{
+    // Esquerda
+    ListaCarrosViewController *listaController = [[ListaCarrosViewController alloc] init];
+    UINavigationController *nav1 = [[[UINavigationController alloc] initWithRootViewController:listaController] autorelease];
+    
+    DetalhesCarroViewController *detalhesController = [[DetalhesCarroViewController alloc] init];
+    UINavigationController *nav2 = [[[UINavigationController alloc] initWithRootViewController:detalhesController] autorelease];
+    
+    // Cria o UISplitViewController
+    UISplitViewController *split = [[[UISplitViewController alloc] init] autorelease];
+    split.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
+    
+    // Deixa o UISplitViewController como o controller principal
+    self.window.rootViewController = split;
 }
 
 #pragma mark - rotation iOS 6

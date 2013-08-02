@@ -30,5 +30,6 @@
 
 - (IBAction)visualizarMapa:(id)sender;
 - (IBAction)visualizarVideo:(id)sender;
+- (void)exibeCarro;
 
 @end

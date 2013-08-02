@@ -19,4 +19,7 @@
 @property (nonatomic, strong, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 - (NSURL *)applicationDocumentsDirectory;
 
+- (void)initIphone;
+- (void)initIpad;
+
 @end

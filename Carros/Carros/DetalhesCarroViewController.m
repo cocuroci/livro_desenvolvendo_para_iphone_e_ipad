@@ -10,7 +10,8 @@
 #import "CarroDBCoreData.h"
 #import "MapaViewController.h"
 #import "VideoViewController.h"
-
+#import "Alerta.h"
+#import "Utils.h"
 
 @implementation DetalhesCarroViewController
 
@@ -21,22 +22,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    // Título da Navigation Bar é o nome do carro
-    self.title = carro.nome;
-
-    // Atualiza o texto das views
-    self.tDesc.text = carro.desc;
-
-    // Foto: DownloadImageView
-    self.img.url  = carro.url_foto;
-    self.imgHorizontal.url  = carro.url_foto;
+    
+    [self exibeCarro];    
 
     // Verifica se está na horizontal e configura a tela
-    UIDeviceOrientation o = [[UIDevice currentDevice] orientation];
-    if(o == UIInterfaceOrientationLandscapeLeft ||o==UIInterfaceOrientationLandscapeRight) {
+    if([Utils isIphone] && [Utils isLandscape]) {
         self.view = viewHorizontal;
-
         self.tabBarController.tabBar.hidden = YES;
         self.navigationController.navigationBar.hidden = YES;
     }
@@ -46,6 +37,20 @@
         style:UIBarButtonItemStyleBordered target:self action:@selector(editar)] autorelease];
     self.navigationItem.rightBarButtonItem = btEditar;
 }
+
+- (void)exibeCarro
+{
+    // Título da Navigation Bar é o nome do carro
+    self.title = carro.nome;
+    
+    // Atualiza o texto das views
+    self.tDesc.text = carro.desc;
+    
+    // Foto: DownloadImageView
+    self.img.url  = carro.url_foto;
+    self.imgHorizontal.url  = carro.url_foto;
+}
+
 #pragma mark - Editar ou Excluir
 - (void)editar {
 	// Exibe um alerta para Salvar ou Excluir o carro
@@ -78,26 +83,29 @@
 #pragma mark rotation iOS 5
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     // Todas menos de ponta cabeça
-    return YES;
+    return toInterfaceOrientation != UIInterfaceOrientationPortraitUpsideDown;
 }
 #pragma mark rotation iOS 6
 - (NSUInteger) supportedInterfaceOrientations {
     // Todas menos de ponta cabeça
     return UIInterfaceOrientationMaskAllButUpsideDown;
 }
+
 #pragma mark rotation
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-	if(toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight) {
-		self.view = viewHorizontal;
-		// Horizontal: Esconde a TabBar e Navigation Bar
-		self.tabBarController.tabBar.hidden = YES;
-		self.navigationController.navigationBar.hidden = YES;
-	} else {
-		self.view = viewVertical;
-		// Vertical: Exibe a TabBar e Navigation Bar
-		self.tabBarController.tabBar.hidden = NO;
-		self.navigationController.navigationBar.hidden = NO;
-	}
+    if ([Utils isIphone]) {    
+        if(toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight) {
+            self.view = viewHorizontal;
+            // Horizontal: Esconde a TabBar e Navigation Bar
+            self.tabBarController.tabBar.hidden = YES;
+            self.navigationController.navigationBar.hidden = YES;
+        } else {
+            self.view = viewVertical;
+            // Vertical: Exibe a TabBar e Navigation Bar
+            self.tabBarController.tabBar.hidden = NO;
+            self.navigationController.navigationBar.hidden = NO;
+        }
+    }
 }
 
 #pragma mark dealloc
@@ -117,14 +125,17 @@
 }
 
 - (IBAction)visualizarVideo:(id)sender
-{
-    //VideoViewController *controller = [[[VideoViewController alloc] init] autorelease];
-    //controller.carro = self.carro;
-    ///[self.navigationController pushViewController:controller animated:YES];
-    
-    //self.videoUtil = [[VideoUtil alloc] init];
-    //[self.videoUtil playUrlFullScreen:[NSURL URLWithString:self.carro.url_video] controller:self];
-    
+{    
+    if (self.carro.url_video) {
+        //VideoViewController *controller = [[[VideoViewController alloc] init] autorelease];
+        //controller.carro = self.carro;
+        //[self.navigationController pushViewController:controller animated:YES];        
+        self.videoUtil = [[VideoUtil alloc] init];
+        [self.videoUtil playUrlFullScreen:[NSURL URLWithString:self.carro.url_video] controller:self];
+        
+    } else {
+        [Alerta alerta:@"Nenhum vídeo para este carro"];
+    }
     
 }
 
