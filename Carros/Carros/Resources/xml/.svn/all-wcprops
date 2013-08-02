@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 111
-/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Resources/xml
+V 87
+/!svn/ver/9075/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros/Resources/xml
 END
 carros_classicos.xml
 K 25
 svn:wc:ra_dav:version-url
-V 132
-/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Resources/xml/carros_classicos.xml
+V 108
+/!svn/ver/9075/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros/Resources/xml/carros_classicos.xml
 END
 carros_luxo.xml
 K 25
 svn:wc:ra_dav:version-url
-V 127
-/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Resources/xml/carros_luxo.xml
+V 103
+/!svn/ver/9075/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros/Resources/xml/carros_luxo.xml
 END
 carros_esportivos.xml
 K 25
 svn:wc:ra_dav:version-url
-V 133
-/!svn/ver/9058/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Resources/xml/carros_esportivos.xml
+V 109
+/!svn/ver/9075/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros/Resources/xml/carros_esportivos.xml
 END

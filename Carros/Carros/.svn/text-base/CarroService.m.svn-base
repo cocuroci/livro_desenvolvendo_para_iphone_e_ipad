@@ -11,6 +11,7 @@
 #import "XMLCarroParser.h"
 #import "SMXMLDocument.h"
 #import "SBJson.h"
+#import "CarroDBCoreData.h"
 #import "HttpHelper.h"
 
 @implementation CarroService
@@ -37,16 +38,48 @@
 + (NSMutableArray *)getCarrosByTipo:(NSString *)tipo {
     // URL
     NSString *url = [NSString stringWithFormat:URL_CARROS, tipo];
-
+    
     // Faz a requisição HTTP
     HttpHelper *http = [[[HttpHelper alloc] init] autorelease];
-
+    
     NSData *data = [http doGet:url];
-
+    
     // Faz o parser do XML
     NSMutableArray *carros = [self parserXML_DOM:data];
-
+    
     return carros;
+}
+
++ (NSMutableArray *)getCarrosByTipo:(NSString *)tipo cache:(BOOL)cache {
+	// Array de carros
+	NSMutableArray *carros = nil;
+	// Busca os carros do banco de dados
+	CarroDBCoreData *db = [[CarroDBCoreData alloc] autorelease];
+    
+	// Se for para buscar de cache, vamos consultar o banco de dados
+	if(cache) {
+		carros = [db getCarrosTipo:tipo];
+	}
+	// Se a busca deve ser online, ou se não foi encontrado nada no banco
+	if(!carros || carros.count == 0) {
+		// Faz a requisição HTTP
+		carros = [CarroService getCarrosByTipo:tipo];
+        
+		// Depois sempre salva os carros no banco de dados
+		if(carros) {
+			// Deletar os registros antigos
+			[db deletarCarrosTipo:tipo];
+            
+			// Agora vamos salvar cada carro
+			for (Carro *c in carros) {
+				// Atualiza o tipo para salvar o valor neste coluna
+				c.tipo = tipo;
+				[db salvar:c];
+			}
+		}
+	}
+    
+	return carros;
 }
 
 + (NSMutableArray *) parserXML_SAX :(NSData *) data {
@@ -97,18 +130,15 @@
         return nil;
     }
     
-    // demonstrate -description of document/element classes
-    NSLog(@"Document:\n %@", document);
-    
     NSMutableArray * carros = [[NSMutableArray alloc] init];
     
-    // Pull out the <books> node
+    // Recupera o document root (raiz)
     SMXMLElement *tagCarros = document.root;
     
-    // Look through <books> children of type <book>
+    // Percorre todas as tags <carro>
     for (SMXMLElement *tagCarro in [tagCarros childrenNamed:@"carro"]) {
 
-        Carro *c    = [[Carro alloc] init];
+        Carro *c    = [CarroDBCoreData newInstance];
         c.nome      = [tagCarro valueWithPath:@"nome"];
         c.desc      = [tagCarro valueWithPath:@"desc"];
         c.url_info  = [tagCarro valueWithPath:@"url_info"];
@@ -150,7 +180,7 @@
     // Para cada carro
     for (NSDictionary *dictCarro in jsonCarros) {
         // O valor de cada carro é lido de um NSDictionary
-        Carro *c    = [[Carro alloc] init];
+        Carro *c    = [CarroDBCoreData newInstance];
         c.nome      = [dictCarro objectForKey:@"nome"];
         c.desc      = [dictCarro objectForKey:@"desc"];
         c.url_info  = [dictCarro objectForKey:@"url_info"];
@@ -166,7 +196,6 @@
     }
     // Retorna a lista de carros
     return carros;
-
 }
 
 @end

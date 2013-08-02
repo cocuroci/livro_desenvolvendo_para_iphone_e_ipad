@@ -2,7 +2,7 @@
 
 dir
 10115
-http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros.xcodeproj
+http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros.xcodeproj
 http://svn.livroandroid.com.br
 
 
@@ -32,8 +32,8 @@ file
 
 
 
-2012-10-12T21:27:11.000000Z
-fadb43d04994a8dadaf0a6d1b2bd2159
+2012-10-12T21:29:28.000000Z
+67a3f4ce5fccd7f3b15a2e03e55ef916
 2012-10-12T22:21:14.086778Z
 9377
 rlecheta
@@ -58,7 +58,7 @@ rlecheta
 
 
 
-46396
+49761
 
 project.xcworkspace
 dir

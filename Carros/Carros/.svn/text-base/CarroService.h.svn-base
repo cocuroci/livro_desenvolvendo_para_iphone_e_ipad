@@ -16,6 +16,11 @@
 // Busca por esportivos, clássicos e luxo
 + (NSMutableArray *) getCarrosByTipo :(NSString *) tipo;
 
+// Busca por esportivos, clássicos e luxo.
+// Cache = YES: Indica que o banco de dados deve ser consultado
+// Cache = NO: Indica que a busca deve ser feita online
++ (NSMutableArray *)getCarrosByTipo:(NSString *)tipo cache:(BOOL)cache;
+
 // Parser de XML com SAX
 + (NSMutableArray *) parserXML_SAX :(NSData *) data;
 

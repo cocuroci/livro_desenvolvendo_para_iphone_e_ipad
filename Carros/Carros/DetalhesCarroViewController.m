@@ -7,11 +7,15 @@
 //
 
 #import "DetalhesCarroViewController.h"
+#import "CarroDBCoreData.h"
+#import "MapaViewController.h"
+#import "VideoViewController.h"
+
 
 @implementation DetalhesCarroViewController
 
 @synthesize carro;
-@synthesize tDesc, img;
+@synthesize tDesc, img, imgHorizontal;
 
 #pragma mark - View lifecycle
 - (void)viewDidLoad
@@ -36,6 +40,39 @@
         self.tabBarController.tabBar.hidden = YES;
         self.navigationController.navigationBar.hidden = YES;
     }
+    
+    // Insere o botão editar na navigation bar
+	UIBarButtonItem *btEditar = [[[UIBarButtonItem alloc] initWithTitle:@"Editar"
+        style:UIBarButtonItemStyleBordered target:self action:@selector(editar)] autorelease];
+    self.navigationItem.rightBarButtonItem = btEditar;
+}
+#pragma mark - Editar ou Excluir
+- (void)editar {
+	// Exibe um alerta para Salvar ou Excluir o carro
+	UIAlertView *alerta = [[UIAlertView alloc] initWithTitle:@"Salvar ou Excluir" message:nil delegate:self cancelButtonTitle:nil otherButtonTitles:@"Salvar",@"Excluir", nil];
+    [alerta setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    [alerta show];
+	// Preenche o campo de texto com o nome do carro
+    [[alerta textFieldAtIndex:0] setText:carro.nome];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+	// Abre o banco de dados
+	CarroDBCoreData *db = [[[CarroDBCoreData alloc] init] autorelease];
+
+	if(buttonIndex == 0) {
+		// Salva o carro
+		NSString *novoNome = [[alertView textFieldAtIndex:0] text];
+		carro.nome = novoNome;
+		[db salvar:carro];
+		// Atualiza o titulo do controller
+		self.title = carro.nome;
+	} else if (buttonIndex == 1){
+		// Deleta o carro
+		[db deletar:carro];
+		// Fecha esta tela
+		[self.navigationController popViewControllerAnimated:YES];// Salvar: atualiza o nome do carro com o texto digitado
+	}
 }
 
 #pragma mark rotation iOS 5
@@ -67,8 +104,31 @@
 - (void)dealloc {
     [carro release];
     [img release];
+    [imgHorizontal release];
     [tDesc release];
     [super dealloc];
 }
 
+- (IBAction)visualizarMapa:(id)sender
+{
+    MapaViewController *map = [[[MapaViewController alloc] init] autorelease];
+    map.carro = self.carro;
+    [self.navigationController pushViewController:map animated:YES];
+}
+
+- (IBAction)visualizarVideo:(id)sender
+{
+    //VideoViewController *controller = [[[VideoViewController alloc] init] autorelease];
+    //controller.carro = self.carro;
+    ///[self.navigationController pushViewController:controller animated:YES];
+    
+    //self.videoUtil = [[VideoUtil alloc] init];
+    //[self.videoUtil playUrlFullScreen:[NSURL URLWithString:self.carro.url_video] controller:self];
+    
+    
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+}
 @end

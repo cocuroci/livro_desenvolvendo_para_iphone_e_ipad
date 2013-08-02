@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Carro.h"
 #import "DownloadImageView.h"
+#import "VideoUtil.h"
 
-@interface DetalhesCarroViewController : UIViewController
+@interface DetalhesCarroViewController : UIViewController <UIAlertViewDelegate>
 {
     Carro *carro;
     // Views para vertical e horizontal
@@ -24,5 +25,10 @@
 
 // Imagem utilizada na horizontal
 @property (nonatomic, retain) IBOutlet DownloadImageView *imgHorizontal;
+
+@property (nonatomic, retain) VideoUtil *videoUtil;
+
+- (IBAction)visualizarMapa:(id)sender;
+- (IBAction)visualizarVideo:(id)sender;
 
 @end

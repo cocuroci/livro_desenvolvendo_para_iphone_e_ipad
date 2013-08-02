@@ -2,7 +2,7 @@
 
 dir
 10115
-http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap11/Exemplo3-HttpHelper-SolucaoFinal/Carros/Carros/Libs/XMLDocument
+http://svn.livroandroid.com.br/Livro/iOS/Livro_iOS_src_final/cap12/CoreData/Carros/Carros/Libs/XMLDocument
 http://svn.livroandroid.com.br
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2012-10-04T20:48:45.000000Z
+2012-10-04T20:48:58.000000Z
 2635a2f2fb443e27dde64b3a7228d88c
-2012-09-29T18:43:16.804223Z
-9058
+2012-09-30T18:44:21.642744Z
+9075
 rlecheta
 has-props
 
@@ -66,7 +66,7 @@ file
 
 
 
-2012-10-04T20:48:45.000000Z
+2012-10-04T20:48:58.000000Z
 e93d74e26d06360ac2d9dc0ed9fa0e7d
 2012-10-01T13:10:24.659148Z
 9080

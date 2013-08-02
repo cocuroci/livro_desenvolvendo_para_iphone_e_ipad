@@ -35,26 +35,29 @@
 	[self.tableView setDelegate:self];
     [self.tableView setDataSource:self];
     
-    
     // Recupera o tipo salvo nas preferências
     int idx = [Prefs getInteger:@"tipoIdx"];
-    
-    // Atualiza o segment control
     [self.segmentControl setSelectedSegmentIndex:idx];
+
     self.tipo = [Prefs getString:@"tipoString"];
-    
-    if(self.tipo == nil || [self.tipo isEqualToString:@""])
-    {
+    if(tipo == nil) {
         self.tipo = @"classicos";
     }
 
-    // Busca os carros
-    [self atualizar];
+    // Liga o cache
+    cache = YES;
 
     // Insere o botão atualizar na navigation bar
 	UIBarButtonItem *btAtualizar = [[[UIBarButtonItem alloc]
-                initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(atualizar)] autorelease];
-	self.navigationItem.rightBarButtonItem = btAtualizar;    
+                initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(atualizarOnline)] autorelease];
+	self.navigationItem.rightBarButtonItem = btAtualizar;
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    // Busca os carros
+    [self atualizar];
 }
 
 #pragma mark - Segment Control
@@ -75,7 +78,7 @@
             self.tipo = @"luxo";
             break;
     }
-    
+
     // Salva o tipo nas preferências
     [Prefs setInteger:idx chave:@"tipoIdx"];
     [Prefs setString:tipo chave:@"tipoString"];
@@ -85,6 +88,12 @@
 }
 
 #pragma mark Métodos
+- (void) atualizarOnline {
+    cache = NO;
+
+    [self atualizar];
+}
+
 - (void) atualizar {
 	// Limpa o TableView antes da busca
     self.carros = nil;
@@ -148,7 +157,10 @@
 // Executa em uma thread
 - (void) transacaoExecutar {
     // Busca os carros em apenas uma linha
-    self.carros = [CarroService getCarrosByTipo:self.tipo];
+    self.carros = [CarroService getCarrosByTipo:self.tipo cache:cache];
+
+    // zera o flag cache
+    cache = YES;
 }
 
 // Atualiza a interface. Executa na thread principal - UI Thread
@@ -176,6 +188,7 @@
     [carros release];
     [tipo release];
     [segmentControl release];
+
     [super dealloc];
 }
 

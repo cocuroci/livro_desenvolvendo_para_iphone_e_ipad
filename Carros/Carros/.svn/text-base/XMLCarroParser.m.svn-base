@@ -8,6 +8,7 @@
 
 #import "XMLCarroParser.h"
 #import "Carro.h"
+#import "CarroDBCoreData.h"
 
 @implementation XMLCarroParser
 
@@ -25,8 +26,8 @@
 	}
 	else if([elementName isEqualToString:@"carro"]) {
         // Tag <carro> encontrada, cria um novo objeto Carro
-		carro = [[Carro alloc] init];
-	}
+		carro = [CarroDBCoreData newInstance];
+    }
 }
 
 // Fecha a tag

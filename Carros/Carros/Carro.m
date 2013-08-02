@@ -2,27 +2,23 @@
 //  Carro.m
 //  Carros
 //
-//  Created by Ricardo Lecheta on 9/23/12.
+//  Created by Ricardo Lecheta on 10/1/12.
 //  Copyright (c) 2012 Ricardo Lecheta. All rights reserved.
 //
 
 #import "Carro.h"
 
+
 @implementation Carro
 
-@synthesize nome, desc, url_foto, url_info, url_video;
-@synthesize latitude, longitude;
-
-- (void) dealloc {
-	[nome release];
-    [desc release];
-    [url_foto release];
-    [url_info release];
-    [url_video release];
-    [latitude release];
-    [longitude release];
-    
-    [super dealloc];
-}
+@dynamic tipo;
+@dynamic nome;
+@dynamic desc;
+@dynamic url_info;
+@dynamic url_foto;
+@dynamic url_video;
+@dynamic latitude;
+@dynamic longitude;
+@dynamic timestamp;
 
 @end
