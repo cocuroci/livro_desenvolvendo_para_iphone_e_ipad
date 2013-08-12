@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import "ListaCarrosViewController.h"
+#import "ListaCarrosViewController_iPad.h"
 #import "SobreViewController.h"
 #import "DetalhesCarroViewController.h"
+#import "DetalhesCarroViewController_iPad.h"
 #import "MyTabBarController.h"
 #import "MyNavigationController.h"
 #import "Utils.h"
@@ -66,14 +68,18 @@
 - (void)initIpad
 {
     // Esquerda
-    ListaCarrosViewController *listaController = [[ListaCarrosViewController alloc] init];
+    ListaCarrosViewController_iPad *listaController = [[ListaCarrosViewController_iPad alloc] initWithNibName:@"ListaCarrosViewController" bundle:nil];
     UINavigationController *nav1 = [[[UINavigationController alloc] initWithRootViewController:listaController] autorelease];
     
-    DetalhesCarroViewController *detalhesController = [[DetalhesCarroViewController alloc] init];
+    DetalhesCarroViewController_iPad *detalhesController = [[DetalhesCarroViewController_iPad alloc] init];
     UINavigationController *nav2 = [[[UINavigationController alloc] initWithRootViewController:detalhesController] autorelease];
+    
+    //Configura o controller de detalhes na lista da esquerda
+    listaController.detalhesController = detalhesController;
     
     // Cria o UISplitViewController
     UISplitViewController *split = [[[UISplitViewController alloc] init] autorelease];
+    split.delegate = detalhesController;
     split.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
     
     // Deixa o UISplitViewController como o controller principal

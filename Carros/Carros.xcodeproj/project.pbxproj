@@ -15,6 +15,9 @@
 		7D1223D617AAF5AA00E3DA6A /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1223D417AAF5AA00E3DA6A /* VideoViewController.xib */; };
 		7D1223D817AAF76E00E3DA6A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1223D717AAF76E00E3DA6A /* MediaPlayer.framework */; };
 		7D1223DB17AAF7A900E3DA6A /* VideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1223DA17AAF7A900E3DA6A /* VideoUtil.m */; };
+		7DDCDE9217B94D8A009C5807 /* ListaCarrosViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCDE9117B94D8A009C5807 /* ListaCarrosViewController_iPad.m */; };
+		7DDCDE9717B95113009C5807 /* DetalhesCarroViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCDE9517B95113009C5807 /* DetalhesCarroViewController_iPad.m */; };
+		7DDCDE9817B95113009C5807 /* DetalhesCarroViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDCDE9617B95113009C5807 /* DetalhesCarroViewController_iPad.xib */; };
 		7DF99EC817AC2EFE00E7AA8C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF99EC717AC2EFE00E7AA8C /* Utils.m */; };
 		DD015AFA161778050030DD56 /* HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AF9161778050030DD56 /* HttpHelper.m */; };
 		DD015AFE1617780F0030DD56 /* TransacaoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DD015AFD1617780F0030DD56 /* TransacaoUtil.m */; };
@@ -94,6 +97,11 @@
 		7D1223D717AAF76E00E3DA6A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		7D1223D917AAF7A900E3DA6A /* VideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoUtil.h; sourceTree = "<group>"; };
 		7D1223DA17AAF7A900E3DA6A /* VideoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoUtil.m; sourceTree = "<group>"; };
+		7DDCDE9017B94D8A009C5807 /* ListaCarrosViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaCarrosViewController_iPad.h; sourceTree = "<group>"; };
+		7DDCDE9117B94D8A009C5807 /* ListaCarrosViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaCarrosViewController_iPad.m; sourceTree = "<group>"; };
+		7DDCDE9417B95113009C5807 /* DetalhesCarroViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesCarroViewController_iPad.h; sourceTree = "<group>"; };
+		7DDCDE9517B95113009C5807 /* DetalhesCarroViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesCarroViewController_iPad.m; sourceTree = "<group>"; };
+		7DDCDE9617B95113009C5807 /* DetalhesCarroViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalhesCarroViewController_iPad.xib; sourceTree = "<group>"; };
 		7DF99EC617AC2EFE00E7AA8C /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		7DF99EC717AC2EFE00E7AA8C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		DD015AF8161778050030DD56 /* HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHelper.h; sourceTree = "<group>"; };
@@ -215,6 +223,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DDCDE9317B950DF009C5807 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				7DDCDE9017B94D8A009C5807 /* ListaCarrosViewController_iPad.h */,
+				7DDCDE9117B94D8A009C5807 /* ListaCarrosViewController_iPad.m */,
+				7DDCDE9417B95113009C5807 /* DetalhesCarroViewController_iPad.h */,
+				7DDCDE9517B95113009C5807 /* DetalhesCarroViewController_iPad.m */,
+				7DDCDE9617B95113009C5807 /* DetalhesCarroViewController_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 		DD1545351619E5DA00F7CE66 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +355,7 @@
 		DD83693F160E896300C3BDCE /* ListaCarros */ = {
 			isa = PBXGroup;
 			children = (
+				7DDCDE9317B950DF009C5807 /* iPad */,
 				DD83699A160FF6E300C3BDCE /* Cell */,
 				DD836930160E88DA00C3BDCE /* ListaCarrosViewController.h */,
 				DD836931160E88DA00C3BDCE /* ListaCarrosViewController.m */,
@@ -565,6 +586,7 @@
 				DD9E9E6F161E379C00FBDB2D /* tab_sobre@2x.png in Resources */,
 				7D1223D117AA98C100E3DA6A /* MapaViewController.xib in Resources */,
 				7D1223D617AAF5AA00E3DA6A /* VideoViewController.xib in Resources */,
+				7DDCDE9817B95113009C5807 /* DetalhesCarroViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +632,8 @@
 				7D1223D517AAF5AA00E3DA6A /* VideoViewController.m in Sources */,
 				7D1223DB17AAF7A900E3DA6A /* VideoUtil.m in Sources */,
 				7DF99EC817AC2EFE00E7AA8C /* Utils.m in Sources */,
+				7DDCDE9217B94D8A009C5807 /* ListaCarrosViewController_iPad.m in Sources */,
+				7DDCDE9717B95113009C5807 /* DetalhesCarroViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
